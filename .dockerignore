@@ -1,0 +1,11 @@
+.git
+.venv
+.pytest_cache
+__pycache__
+*.pyc
+*.pyo
+*.log
+tests
+loss_curves.png
+metrics.json
+training_log.txt

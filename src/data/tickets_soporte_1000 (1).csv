@@ -1,0 +1,1001 @@
+ticket_id,ticket_text,Servicio,Categoria,Subcategoria
+TKT-0001,Necesito ayuda con la optimización de recursos de mis instancias para reducir costos.,Cloud Infrastructure,Instancias,Optimización de recursos
+TKT-0002,El uso de CPU está mal optimizado y requiero asesoría de optimización de recursos.,Cloud Infrastructure,Instancias,Optimización de recursos
+TKT-0003,¿Cómo puedo mejorar la eficiencia y optimización de recursos de mis servidores?,Cloud Infrastructure,Instancias,Optimización de recursos
+TKT-0004,Recomendaciones para la optimización de recursos en instancias de alta carga.,Cloud Infrastructure,Instancias,Optimización de recursos
+TKT-0005,"Estamos experimentando desperdicio de memoria, requerimos optimización de recursos.",Cloud Infrastructure,Instancias,Optimización de recursos
+TKT-0006,¿Qué opciones de compresión de datos hay disponibles para el almacenamiento?,Cloud Infrastructure,Almacenamiento,Compresión de datos
+TKT-0007,La compresión de datos está tardando demasiado y eleva el uso de CPU.,Cloud Infrastructure,Almacenamiento,Compresión de datos
+TKT-0008,Activar la compresión de datos para reducir el espacio ocupado en el disco.,Cloud Infrastructure,Almacenamiento,Compresión de datos
+TKT-0009,Error al descomprimir un archivo con la herramienta de compresión de datos.,Cloud Infrastructure,Almacenamiento,Compresión de datos
+TKT-0010,Soporte para algoritmos avanzados de compresión de datos en volúmenes block.,Cloud Infrastructure,Almacenamiento,Compresión de datos
+TKT-0011,Problemas con la configuración de DNS regional para resolver subdominios.,Cloud Infrastructure,Redes,Configuración de DNS regional
+TKT-0012,¿Cómo apunto mi dominio usando la configuración de DNS regional?,Cloud Infrastructure,Redes,Configuración de DNS regional
+TKT-0013,Latencia alta debido a una mala configuración de DNS regional.,Cloud Infrastructure,Redes,Configuración de DNS regional
+TKT-0014,Actualización de registros NS en la configuración de DNS regional.,Cloud Infrastructure,Redes,Configuración de DNS regional
+TKT-0015,El TTL no se está aplicando correctamente en la configuración de DNS regional.,Cloud Infrastructure,Redes,Configuración de DNS regional
+TKT-0016,¿Cómo puedo ver y cerrar las sesiones activas de un usuario desde el panel?,API Management,Autenticación,Sesiones activas
+TKT-0017,El límite de sesiones activas simultáneas no está funcionando.,API Management,Autenticación,Sesiones activas
+TKT-0018,Error al consultar el historial de sesiones activas de la cuenta.,API Management,Autenticación,Sesiones activas
+TKT-0019,Forzar el cierre de todas las sesiones activas por motivos de seguridad.,API Management,Autenticación,Sesiones activas
+TKT-0020,Las sesiones activas no expiran después del tiempo de inactividad configurado.,API Management,Autenticación,Sesiones activas
+TKT-0021,¿Cómo se aplican las políticas globales de rate limiting en la organización?,API Management,Rate Limiting,Políticas globales
+TKT-0022,Las políticas globales están bloqueando tráfico legítimo de nuestros clientes.,API Management,Rate Limiting,Políticas globales
+TKT-0023,Modificar las políticas globales para permitir más peticiones por minuto.,API Management,Rate Limiting,Políticas globales
+TKT-0024,Error en la sincronización de políticas globales entre clusters.,API Management,Rate Limiting,Políticas globales
+TKT-0025,Documentación sobre cómo heredar las políticas globales en microservicios.,API Management,Rate Limiting,Políticas globales
+TKT-0026,Falla en la validación de la firma para la autenticación de Webhook.,API Management,Integración,Autenticación de Webhook
+TKT-0027,¿Cómo configuro la clave secreta para la autenticación de Webhook?,API Management,Integración,Autenticación de Webhook
+TKT-0028,Error 401 durante la autenticación de Webhook entrante.,API Management,Integración,Autenticación de Webhook
+TKT-0029,La documentación sobre la autenticación de Webhook no tiene ejemplos en Python.,API Management,Integración,Autenticación de Webhook
+TKT-0030,Cambiar el certificado utilizado en la autenticación de Webhook corporativo.,API Management,Integración,Autenticación de Webhook
+TKT-0031,No puedo descargar el historial de facturas del año pasado.,Billing & Account,Facturación,Historial de facturas
+TKT-0032,El historial de facturas muestra un saldo pendiente que ya fue pagado.,Billing & Account,Facturación,Historial de facturas
+TKT-0033,Exportar el historial de facturas en formato PDF y CSV.,Billing & Account,Facturación,Historial de facturas
+TKT-0034,Error al cargar la página del historial de facturas en el portal de cliente.,Billing & Account,Facturación,Historial de facturas
+TKT-0035,Faltan algunas facturas en mi historial de facturas del mes anterior.,Billing & Account,Facturación,Historial de facturas
+TKT-0036,¿Qué características están limitadas durante el periodo de prueba?,Billing & Account,Suscripción,Periodo de prueba
+TKT-0037,Mi periodo de prueba terminó antes de los 30 días prometidos.,Billing & Account,Suscripción,Periodo de prueba
+TKT-0038,¿Cómo cancelo la cuenta antes de que finalice el periodo de prueba?,Billing & Account,Suscripción,Periodo de prueba
+TKT-0039,Extender el periodo de prueba para terminar de evaluar la plataforma.,Billing & Account,Suscripción,Periodo de prueba
+TKT-0040,Error al intentar activar el periodo de prueba con mi tarjeta corporativa.,Billing & Account,Suscripción,Periodo de prueba
+TKT-0041,Mi cuenta sufrió un bloqueo preventivo por actividad sospechosa.,Billing & Account,Acceso,Bloqueo preventivo
+TKT-0042,¿Cómo levanto el bloqueo preventivo de la cuenta de un colaborador?,Billing & Account,Acceso,Bloqueo preventivo
+TKT-0043,El sistema aplicó un bloqueo preventivo erróneo al intentar ingresar desde mi celular.,Billing & Account,Acceso,Bloqueo preventivo
+TKT-0044,Notificación de seguridad sobre bloqueo preventivo de accesos raíz.,Billing & Account,Acceso,Bloqueo preventivo
+TKT-0045,Procedimiento de verificación de identidad tras un bloqueo preventivo.,Billing & Account,Acceso,Bloqueo preventivo
+TKT-0046,Configurar la política de rotación de logs para que sea diaria.,Performance & Monitoring,Logs,Rotación de logs
+TKT-0047,La rotación de logs está fallando y llenando el espacio en disco.,Performance & Monitoring,Logs,Rotación de logs
+TKT-0048,¿Dónde se guardan los archivos comprimidos tras la rotación de logs?,Performance & Monitoring,Logs,Rotación de logs
+TKT-0049,Error en los permisos al ejecutar el script de rotación de logs.,Performance & Monitoring,Logs,Rotación de logs
+TKT-0050,La rotación de logs borró datos históricos que aún necesitábamos.,Performance & Monitoring,Logs,Rotación de logs
+TKT-0051,El gráfico de uso de red muestra picos anómalos de tráfico entrante.,Performance & Monitoring,Métricas,Uso de red
+TKT-0052,Configurar alertas para cuando el uso de red supere los 500 Mbps.,Performance & Monitoring,Métricas,Uso de red
+TKT-0053,No puedo visualizar las métricas de uso de red de las últimas 24 horas.,Performance & Monitoring,Métricas,Uso de red
+TKT-0054,La API de métricas devuelve valores nulos para el uso de red saliente.,Performance & Monitoring,Métricas,Uso de red
+TKT-0055,Diferencia entre el uso de red reportado por el sistema y el router.,Performance & Monitoring,Métricas,Uso de red
+TKT-0056,Estamos recibiendo demasiados falsos positivos en las alertas de CPU.,Performance & Monitoring,Alertas,Falsos positivos
+TKT-0057,¿Cómo tunear los umbrales para evitar falsos positivos en producción?,Performance & Monitoring,Alertas,Falsos positivos
+TKT-0058,Análisis de falsos positivos en las alertas de caída de servicio.,Performance & Monitoring,Alertas,Falsos positivos
+TKT-0059,Las alertas por picos de latencia resultaron ser falsos positivos de red.,Performance & Monitoring,Alertas,Falsos positivos
+TKT-0060,Desactivar temporalmente una alerta propensa a generar falsos positivos.,Performance & Monitoring,Alertas,Falsos positivos
+TKT-0061,Nuestra aplicación web está devolviendo Error 404 en rutas estáticas.,Soporte Técnico,Errores,Error 404
+TKT-0062,¿Cómo configuro una página personalizada para el Error 404 Not Found?,Soporte Técnico,Errores,Error 404
+TKT-0063,Muchos usuarios reportan Error 404 al intentar acceder a la documentación.,Soporte Técnico,Errores,Error 404
+TKT-0064,El balanceador redirige mal y provoca Error 404 generalizado.,Soporte Técnico,Errores,Error 404
+TKT-0065,Monitorear la tasa de Error 404 para detectar enlaces rotos.,Soporte Técnico,Errores,Error 404
+TKT-0066,Problemas con la instalación en Docker de la imagen oficial del SDK.,Soporte Técnico,Instalación,Instalación en Docker
+TKT-0067,La instalación en Docker falla al compilar dependencias nativas.,Soporte Técnico,Instalación,Instalación en Docker
+TKT-0068,Guía paso a paso para realizar la instalación en Docker en entornos ARM64.,Soporte Técnico,Instalación,Instalación en Docker
+TKT-0069,Error de permisos de volumen durante la instalación en Docker.,Soporte Técnico,Instalación,Instalación en Docker
+TKT-0070,¿Cómo optimizar el tamaño de la imagen tras la instalación en Docker?,Soporte Técnico,Instalación,Instalación en Docker
+TKT-0071,La optimización de índices de la base de datos está bloqueando las tablas.,Soporte Técnico,Mantenimiento,Optimización de índices
+TKT-0072,¿Con qué frecuencia se recomienda correr la optimización de índices?,Soporte Técnico,Mantenimiento,Optimización de índices
+TKT-0073,Error de timeout durante la optimización de índices de texto completo.,Soporte Técnico,Mantenimiento,Optimización de índices
+TKT-0074,Mejorar los tiempos de consulta mediante la optimización de índices manual.,Soporte Técnico,Mantenimiento,Optimización de índices
+TKT-0075,Script automatizado para la optimización de índices en horarios de bajo tráfico.,Soporte Técnico,Mantenimiento,Optimización de índices
+TKT-0076,Problema con la expiración de token: dura menos del tiempo configurado.,API Management,Autenticación,Expiración de token
+TKT-0077,La búsqueda indexada de logs está tardando varios minutos en completarse.,Performance & Monitoring,Logs,Búsqueda indexada
+TKT-0078,El servidor web arroja Error 502 Bad Gateway intermitentemente.,Soporte Técnico,Errores,Error 502 Bad Gateway
+TKT-0079,Necesito configurar una tabla con enrutamiento estático hacia mi VPN.,Cloud Infrastructure,Redes,Enrutamiento estático
+TKT-0080,¿Cómo aplico la exención de impuestos y retenciones a mi factura?,Billing & Account,Facturación,Impuestos y retenciones
+TKT-0081,El enrutamiento estático está ignorando una de las subredes declaradas.,Cloud Infrastructure,Redes,Enrutamiento estático
+TKT-0082,Aumentar los límites de llamadas API para el entorno de producción.,API Management,Integración,Límites de llamadas API
+TKT-0083,Necesito exportar el historial de alertas del último trimestre para auditoría.,Performance & Monitoring,Alertas,Historial de alertas
+TKT-0084,¿Cómo manejo la expiración de token en el frontend sin desconectar al usuario?,API Management,Autenticación,Expiración de token
+TKT-0085,Estamos alcanzando el límite de IOPS de disco y la base de datos se congela.,Performance & Monitoring,Métricas,IOPS de disco
+TKT-0086,¿Cómo borro una ruta en la configuración de enrutamiento estático?,Cloud Infrastructure,Redes,Enrutamiento estático
+TKT-0087,El cálculo de impuestos y retenciones es incorrecto para mi región.,Billing & Account,Facturación,Impuestos y retenciones
+TKT-0088,Necesito actualizar mi RFC/NIT para el desglose de impuestos y retenciones.,Billing & Account,Facturación,Impuestos y retenciones
+TKT-0089,¿Cómo uso operadores lógicos en la búsqueda indexada de eventos?,Performance & Monitoring,Logs,Búsqueda indexada
+TKT-0090,Error al crear un nuevo índice para la búsqueda indexada de errores.,Performance & Monitoring,Logs,Búsqueda indexada
+TKT-0091,Programar una verificación de disco debido a posibles sectores corruptos.,Soporte Técnico,Mantenimiento,Verificación de disco
+TKT-0092,La búsqueda indexada no muestra resultados recientes de las últimas dos horas.,Performance & Monitoring,Logs,Búsqueda indexada
+TKT-0093,¿Cómo puedo aumentar los IOPS de disco de mi volumen de almacenamiento?,Performance & Monitoring,Métricas,IOPS de disco
+TKT-0094,¿Cómo configuro el apagado programado de mis instancias los fines de semana?,Cloud Infrastructure,Instancias,Apagado programado
+TKT-0095,Monitorear los IOPS de disco mediante el dashboard de rendimiento.,Performance & Monitoring,Métricas,IOPS de disco
+TKT-0096,Optimizar el rendimiento de la búsqueda indexada en el cluster de logs.,Performance & Monitoring,Logs,Búsqueda indexada
+TKT-0097,Conflicto entre el enrutamiento estático y las rutas dinámicas de la VPC.,Cloud Infrastructure,Redes,Enrutamiento estático
+TKT-0098,No puedo filtrar logs por timestamp.,Performance & Monitoring,Logs,Acceso a logs
+TKT-0099,Duda sobre los impuestos y retenciones aplicados en el último cobro.,Billing & Account,Facturación,Impuestos y retenciones
+TKT-0100,Solicito cambiar mi cuenta a la modalidad de facturación corporativa.,Billing & Account,Suscripción,Facturación corporativa
+TKT-0101,El apagado programado no se ejecutó anoche y los servidores se quedaron encendidos.,Cloud Infrastructure,Instancias,Apagado programado
+TKT-0102,Alerta de alta latencia por saturación de IOPS de disco en el servidor de logs.,Performance & Monitoring,Métricas,IOPS de disco
+TKT-0103,Necesito un script para automatizar el apagado programado de instancias de desarrollo.,Cloud Infrastructure,Instancias,Apagado programado
+TKT-0104,Error al generar el certificado de impuestos y retenciones.,Billing & Account,Facturación,Impuestos y retenciones
+TKT-0105,¿Los IOPS de disco asignados son garantizados o compartidos?,Performance & Monitoring,Métricas,IOPS de disco
+TKT-0106,Error de red: el tráfico no sigue las reglas de enrutamiento estático.,Cloud Infrastructure,Redes,Enrutamiento estático
+TKT-0107,La actualización de CLI falló y dañó la configuración global anterior.,Soporte Técnico,Instalación,Actualización de CLI
+TKT-0108,¿Cuánto tarda en procesarse un reembolso?,Billing & Account,Facturación,Reembolsos
+TKT-0109,No estoy recibiendo las alertas de cuota cuando llego al 90% del límite.,API Management,Rate Limiting,Alertas de cuota
+TKT-0110,Problema con Latencia de red,Cloud Infrastructure,Redes,Latencia de red
+TKT-0111,El enlace de la invitación a equipo expira demasiado rápido.,Billing & Account,Acceso,Invitación a equipo
+TKT-0112,¿Cuál es el comportamiento cuando se superan los límites de llamadas API?,API Management,Integración,Límites de llamadas API
+TKT-0113,Los logs más antiguos no están disponibles.,Performance & Monitoring,Logs,Acceso a logs
+TKT-0114,Problema con DNS y dominios,Cloud Infrastructure,Redes,DNS y dominios
+TKT-0115,Falla en la tarea de apagado programado de servidores virtuales.,Cloud Infrastructure,Instancias,Apagado programado
+TKT-0116,No le llega el correo de invitación a equipo a un nuevo desarrollador.,Billing & Account,Acceso,Invitación a equipo
+TKT-0117,Configuración de alertas antes de realizar el apagado programado de las instancias.,Cloud Infrastructure,Instancias,Apagado programado
+TKT-0118,Las alertas se disparan con frecuencia. ¿Cómo filtro?,Performance & Monitoring,Logs,Alertas de error
+TKT-0119,El scaling down es muy agresivo y causa caídas de servicio.,Cloud Infrastructure,Instancias,Escalabilidad automática
+TKT-0120,Requisitos para activar la facturación corporativa mediante orden de compra.,Billing & Account,Suscripción,Facturación corporativa
+TKT-0121,¿Qué pasa con el prorrateo si cambio de plan mid-ciclo?,Billing & Account,Facturación,Ciclo de facturación
+TKT-0122,El departamento de compras necesita datos para la facturación corporativa.,Billing & Account,Suscripción,Facturación corporativa
+TKT-0123,CPU al 100% constantemente. ¿Es normal? ¿Cómo optimizo?,Cloud Infrastructure,Instancias,Rendimiento de servidor
+TKT-0124,Configurar alertas de cuota personalizadas para el consumo de la API.,API Management,Rate Limiting,Alertas de cuota
+TKT-0125,Necesito reiniciar una instancia. ¿Hay downtime asociado?,Cloud Infrastructure,Instancias,Reinicio de instancia
+TKT-0126,La verificación de disco tardó 4 horas y causó lentitud en la instancia.,Soporte Técnico,Mantenimiento,Verificación de disco
+TKT-0127,Problema con Balanceador de carga,Cloud Infrastructure,Redes,Balanceador de carga
+TKT-0128,Error reportado por la herramienta de verificación de disco en el volumen principal.,Soporte Técnico,Mantenimiento,Verificación de disco
+TKT-0129,El refresh token falla inmediatamente después de la expiración de token original.,API Management,Autenticación,Expiración de token
+TKT-0130,"Después del reinicio, los datos no persistieron. ¿Dónde guardé mal?",Cloud Infrastructure,Instancias,Reinicio de instancia
+TKT-0131,Error al aceptar la invitación a equipo enviada por el administrador.,Billing & Account,Acceso,Invitación a equipo
+TKT-0132,¿Hay análisis automático de crecimiento?,Performance & Monitoring,Métricas,Comparativa de periodos
+TKT-0133,"Necesito reembolso parcial, ¿es posible?",Billing & Account,Facturación,Reembolsos
+TKT-0134,Necesito mover archivos históricos a un almacenamiento de archivado a largo plazo.,Cloud Infrastructure,Almacenamiento,Archivado a largo plazo
+TKT-0135,¿Puedo cambiar la política de retención?,Performance & Monitoring,Logs,Retención de datos
+TKT-0136,¿Es necesario desmontar el volumen para realizar la verificación de disco?,Soporte Técnico,Mantenimiento,Verificación de disco
+TKT-0137,Recibo error 401 debido a la pronta expiración de token de acceso.,API Management,Autenticación,Expiración de token
+TKT-0138,Configurar múltiples direcciones de envío en la facturación corporativa.,Billing & Account,Suscripción,Facturación corporativa
+TKT-0139,Problemas con los plazos de pago acordados en la facturación corporativa.,Billing & Account,Suscripción,Facturación corporativa
+TKT-0140,La instancia que provisioné no está respondiendo. ¿Cómo verifico el estado?,Cloud Infrastructure,Instancias,Provisión de servidor
+TKT-0141,¿Cómo realizo una actualización de CLI de forma segura en un script CI/CD?,Soporte Técnico,Instalación,Actualización de CLI
+TKT-0142,Configuración personalizada para la política de expiración de token de API.,API Management,Autenticación,Expiración de token
+TKT-0143,Error de cuota excedida debido a los límites de llamadas API.,API Management,Integración,Límites de llamadas API
+TKT-0144,"Después de la actualización de la API, todo responde con Error 502 Bad Gateway.",Soporte Técnico,Errores,Error 502 Bad Gateway
+TKT-0145,El percentil P99 de latencia es muy alto.,Performance & Monitoring,Métricas,Latencia de respuesta
+TKT-0146,¿Cuál es el costo por GB en el servicio de archivado a largo plazo?,Cloud Infrastructure,Almacenamiento,Archivado a largo plazo
+TKT-0147,Recibí múltiples alertas de cuota duplicadas en mi correo.,API Management,Rate Limiting,Alertas de cuota
+TKT-0148,¿Dónde puedo ver el umbral configurado para las alertas de cuota?,API Management,Rate Limiting,Alertas de cuota
+TKT-0149,Configuración del proxy para evitar el Error 502 Bad Gateway por timeout.,Soporte Técnico,Errores,Error 502 Bad Gateway
+TKT-0150,¿Puedo cambiar la política de retención?,Performance & Monitoring,Logs,Retención de datos
+TKT-0151,Disponibilidad por debajo del SLA. ¿Compensación?,Performance & Monitoring,Métricas,Disponibilidad del servicio
+TKT-0152,Error al verificar la versión después de la actualización de CLI.,Soporte Técnico,Instalación,Actualización de CLI
+TKT-0153,El pago se procesó pero la suscripción no se activó.,Billing & Account,Facturación,Métodos de pago
+TKT-0154,Monitorear en tiempo real los límites de llamadas API por cliente.,API Management,Integración,Límites de llamadas API
+TKT-0155,Necesito refrescar tokens sin que expire la sesión.,API Management,Autenticación,Token JWT
+TKT-0156,El backend está caído y el balanceador responde con Error 502 Bad Gateway.,Soporte Técnico,Errores,Error 502 Bad Gateway
+TKT-0157,Problema con Configuración de firewall,Cloud Infrastructure,Redes,Configuración de firewall
+TKT-0158,¿Cómo migro mi aplicación a una instancia diferente sin downtime?,Cloud Infrastructure,Instancias,Migración de servidor
+TKT-0159,Historial y resultados de la última verificación de disco ejecutada.,Soporte Técnico,Mantenimiento,Verificación de disco
+TKT-0160,Cancelación de cuenta rechazada sin explicación.,Billing & Account,Suscripción,Cancelación de cuenta
+TKT-0161,"Después del reinicio, los datos no persistieron. ¿Dónde guardé mal?",Cloud Infrastructure,Instancias,Reinicio de instancia
+TKT-0162,Error al recuperar un backup del sistema de archivado a largo plazo.,Cloud Infrastructure,Almacenamiento,Archivado a largo plazo
+TKT-0163,"Latencia inconsistente: a veces rápido, a veces lento.",Performance & Monitoring,Métricas,Latencia de respuesta
+TKT-0164,No recibo notificaciones de alertas.,Performance & Monitoring,Logs,Alertas de error
+TKT-0165,Las alertas de cuota se dispararon erróneamente sin haber alcanzado el límite.,API Management,Rate Limiting,Alertas de cuota
+TKT-0166,Duda sobre los límites de llamadas API en planes empresariales.,API Management,Integración,Límites de llamadas API
+TKT-0167,Downgrade de plan causó que perdiera features.,Billing & Account,Suscripción,Cambio de plan
+TKT-0168,¿Cuándo son las ventanas de mantenimiento?,Soporte Técnico,Mantenimiento,Ventanas de mantenimiento
+TKT-0169,El historial de alertas no registra las notificaciones enviadas a Slack.,Performance & Monitoring,Alertas,Historial de alertas
+TKT-0170,Mi librería cliente no es compatible con la nueva versión de API.,API Management,Integración,Compatibilidad
+TKT-0171,El scaling down es muy agresivo y causa caídas de servicio.,Cloud Infrastructure,Instancias,Escalabilidad automática
+TKT-0172,¿Cuál es la frecuencia de parches?,Soporte Técnico,Mantenimiento,Actualizaciones de parches
+TKT-0173,¿Soportan integración con frameworks específicos?,API Management,Integración,Compatibilidad
+TKT-0174,¿Hay downtime esperado en mantenimiento?,Soporte Técnico,Mantenimiento,Ventanas de mantenimiento
+TKT-0175,Quiero cancelar mi cuenta. ¿Cuál es el proceso?,Billing & Account,Suscripción,Cancelación de cuenta
+TKT-0176,El flujo OAuth no redirige correctamente al callback.,API Management,Autenticación,OAuth 2.0
+TKT-0177,Throttling está afectando mi aplicación en producción.,API Management,Rate Limiting,Throttling
+TKT-0178,Problema con DNS y dominios,Cloud Infrastructure,Redes,DNS y dominios
+TKT-0179,¿Cuál es la diferencia entre client credentials y authorization code?,API Management,Autenticación,OAuth 2.0
+TKT-0180,Mi ciclo de facturación es confuso. ¿Cuándo se me cobra?,Billing & Account,Facturación,Ciclo de facturación
+TKT-0181,Revisar la comunicación de red interna para solucionar el Error 502 Bad Gateway.,Soporte Técnico,Errores,Error 502 Bad Gateway
+TKT-0182,¿Cuál es la duración máxima de un JWT?,API Management,Autenticación,Token JWT
+TKT-0183,Problema con DNS y dominios,Cloud Infrastructure,Redes,DNS y dominios
+TKT-0184,El renovación automática de credenciales no funcionó.,API Management,Autenticación,Renovación de credenciales
+TKT-0185,Problema con Latencia de red,Cloud Infrastructure,Redes,Latencia de red
+TKT-0186,Problema con Conectividad VPC,Cloud Infrastructure,Redes,Conectividad VPC
+TKT-0187,Necesito reiniciar una instancia. ¿Hay downtime asociado?,Cloud Infrastructure,Instancias,Reinicio de instancia
+TKT-0188,¿Hay downtime planeado próximamente?,Soporte Técnico,Mantenimiento,Downtime planificado
+TKT-0189,No puedo filtrar logs por timestamp.,Performance & Monitoring,Logs,Acceso a logs
+TKT-0190,Los logs se borraron antes de la fecha de retención.,Performance & Monitoring,Logs,Retención de datos
+TKT-0191,Promoción aplicada incorrectamente en la factura.,Billing & Account,Suscripción,Promociones
+TKT-0192,Pagué a mitad de mes y me cobran el ciclo completo.,Billing & Account,Facturación,Ciclo de facturación
+TKT-0193,¿Qué causa error 500 en esta API?,Soporte Técnico,Errores,Error 500
+TKT-0194,La actualización de CLI requiere permisos de administrador que no poseo.,Soporte Técnico,Instalación,Actualización de CLI
+TKT-0195,Limpieza de base de datos dejó inconsistencias.,Soporte Técnico,Mantenimiento,Limpieza de base de datos
+TKT-0196,Mi suscripción se renovó aunque la cancelé.,Billing & Account,Suscripción,Renovación automática
+TKT-0197,¿Puedo solicitar una excepción temporal para superar límites?,API Management,Rate Limiting,Excepciones temporales
+TKT-0198,Problemas de compatibilidad con comandos antiguos tras la actualización de CLI.,Soporte Técnico,Instalación,Actualización de CLI
+TKT-0199,Configurar políticas de ciclo de vida para el archivado a largo plazo de logs.,Cloud Infrastructure,Almacenamiento,Archivado a largo plazo
+TKT-0200,¿Dónde veo la fecha de expiración de mis credenciales?,API Management,Autenticación,Renovación de credenciales
+TKT-0201,La factura no coincide con el desglose de uso.,Billing & Account,Facturación,Factura incorrecta
+TKT-0202,Problema con Conectividad VPC,Cloud Infrastructure,Redes,Conectividad VPC
+TKT-0203,¿Hay Docker compose para desarrollo?,Soporte Técnico,Instalación,Entorno de desarrollo
+TKT-0204,¿Dónde encuentro la lista de dependencias?,Soporte Técnico,Instalación,Dependencias faltantes
+TKT-0205,¿Cuándo se elimina soporte para versiones antiguas?,API Management,Integración,Versionamiento
+TKT-0206,El servidor de desarrollo no funciona.,Soporte Técnico,Instalación,Entorno de desarrollo
+TKT-0207,¿Cómo accedo a los logs de mi aplicación?,Performance & Monitoring,Logs,Acceso a logs
+TKT-0208,Mi ciclo de facturación es confuso. ¿Cuándo se me cobra?,Billing & Account,Facturación,Ciclo de facturación
+TKT-0209,¿Cómo accedo a los logs de mi aplicación?,Performance & Monitoring,Logs,Acceso a logs
+TKT-0210,Error en configuración inicial del SDK.,Soporte Técnico,Instalación,Configuración inicial
+TKT-0211,El bug fue introducido en la última actualización.,Soporte Técnico,Errores,Bug en feature
+TKT-0212,¿Puedo revertir después de migrar?,Soporte Técnico,Mantenimiento,Migraciones
+TKT-0213,¿Cómo puedo limpiar o purgar el historial de alertas antiguas?,Performance & Monitoring,Alertas,Historial de alertas
+TKT-0214,Tiempo estimado de disponibilidad al solicitar archivos en archivado a largo plazo.,Cloud Infrastructure,Almacenamiento,Archivado a largo plazo
+TKT-0215,La escalabilidad automática no se activa aunque los umbrales se superan.,Cloud Infrastructure,Instancias,Escalabilidad automática
+TKT-0216,Recibí cobro de renovación antes de la fecha esperada.,Billing & Account,Suscripción,Renovación automática
+TKT-0217,Variables de entorno no se cargan correctamente.,Soporte Técnico,Instalación,Entorno de desarrollo
+TKT-0218,Tengo un evento especial y necesito límites temporales aumentados.,API Management,Rate Limiting,Excepciones temporales
+TKT-0219,¿Dónde puedo descargar logs en formato CSV?,Performance & Monitoring,Logs,Acceso a logs
+TKT-0220,Quiero cambiar a un plan más barato. ¿Afecta mi servicio?,Billing & Account,Suscripción,Cambio de plan
+TKT-0221,"Después del reinicio, los datos no persistieron. ¿Dónde guardé mal?",Cloud Infrastructure,Instancias,Reinicio de instancia
+TKT-0222,Las alertas se disparan con frecuencia. ¿Cómo filtro?,Performance & Monitoring,Logs,Alertas de error
+TKT-0223,¿Dónde pongo mis credenciales?,Soporte Técnico,Instalación,Configuración inicial
+TKT-0224,Un parche rompió mi aplicación.,Soporte Técnico,Mantenimiento,Actualizaciones de parches
+TKT-0225,Throttling está afectando mi aplicación en producción.,API Management,Rate Limiting,Throttling
+TKT-0226,Recibo error 500 intermitente.,Soporte Técnico,Errores,Error 500
+TKT-0227,Los eventos del webhook llegan con mucho retraso.,API Management,Integración,Webhook
+TKT-0228,Pip install falla con error de compilación.,Soporte Técnico,Instalación,Instalación de SDK
+TKT-0229,Solicité un reembolso hace una semana. ¿Dónde está?,Billing & Account,Facturación,Reembolsos
+TKT-0230,Perdí mi API key. ¿Cómo genero una nueva?,API Management,Autenticación,API Keys
+TKT-0231,¿Cómo migro a la nueva versión de la plataforma?,Soporte Técnico,Mantenimiento,Migraciones
+TKT-0232,Limpieza de base de datos dejó inconsistencias.,Soporte Técnico,Mantenimiento,Limpieza de base de datos
+TKT-0233,¿Cuál es el impacto de limpiar la BD?,Soporte Técnico,Mantenimiento,Limpieza de base de datos
+TKT-0234,¿Dónde pongo mis credenciales?,Soporte Técnico,Instalación,Configuración inicial
+TKT-0235,No puedo crear una nueva instancia de servidor. Me aparece error de permisos al intentar provisionar desde el dashboard.,Cloud Infrastructure,Instancias,Provisión de servidor
+TKT-0236,¿Cuánto tarda en procesarse un reembolso?,Billing & Account,Facturación,Reembolsos
+TKT-0237,El servidor deja de responder a las 3 PM diariamente. Sospecho que es un problema de carga.,Cloud Infrastructure,Instancias,Rendimiento de servidor
+TKT-0238,Throttling está afectando mi aplicación en producción.,API Management,Rate Limiting,Throttling
+TKT-0239,Mi suscripción se renovó aunque la cancelé.,Billing & Account,Suscripción,Renovación automática
+TKT-0240,¿Cómo genero un reporte de uso mensual?,Performance & Monitoring,Logs,Exportación de reportes
+TKT-0241,Problema con Latencia de red,Cloud Infrastructure,Redes,Latencia de red
+TKT-0242,¿Dónde pongo mis credenciales?,Soporte Técnico,Instalación,Configuración inicial
+TKT-0243,Reenviar la invitación a equipo con un rol diferente.,Billing & Account,Acceso,Invitación a equipo
+TKT-0244,Throttling está afectando mi aplicación en producción.,API Management,Rate Limiting,Throttling
+TKT-0245,¿Cuántas personas puedo añadir mediante invitación a equipo en mi plan?,Billing & Account,Acceso,Invitación a equipo
+TKT-0246,Necesito saber cuánto espacio estoy usando actualmente.,Cloud Infrastructure,Almacenamiento,Capacidad de almacenamiento
+TKT-0247,Necesito reconfigurar el URL de mi webhook.,API Management,Integración,Webhook
+TKT-0248,¿Cuáles son las dependencias del SDK?,Soporte Técnico,Instalación,Instalación de SDK
+TKT-0249,Latencia muy alta en las consultas a base de datos. ¿Dónde está el cuello de botella?,Cloud Infrastructure,Instancias,Rendimiento de servidor
+TKT-0250,¿Cómo restringo una API key a ciertos endpoints?,API Management,Autenticación,API Keys
+TKT-0251,Hice reset de contraseña pero no puedo acceder.,Billing & Account,Acceso,Recuperación de contraseña
+TKT-0252,¿Puedo programar exportaciones automáticas?,Performance & Monitoring,Logs,Exportación de reportes
+TKT-0253,¿Cómo aplico un cupón retroactivamente?,Billing & Account,Facturación,Descuentos no aplicados
+TKT-0254,¿Cuándo se elimina soporte para versiones antiguas?,API Management,Integración,Versionamiento
+TKT-0255,El servidor de desarrollo no funciona.,Soporte Técnico,Instalación,Entorno de desarrollo
+TKT-0256,La documentación no menciona este parámetro.,Soporte Técnico,Instalación,Documentación incompleta
+TKT-0257,¿Cuáles son los requisitos de compatibilidad?,Soporte Técnico,Errores,Problema de compatibilidad
+TKT-0258,¿Cuál es la diferencia entre client credentials y authorization code?,API Management,Autenticación,OAuth 2.0
+TKT-0259,Compré un plan anual pero no veo descuento aplicado.,Billing & Account,Facturación,Descuentos no aplicados
+TKT-0260,Recuperé datos pero faltan archivos de hace 3 días.,Cloud Infrastructure,Almacenamiento,Backup y recuperación
+TKT-0261,La replicación de datos está desfasada. Hay inconsistencia entre regiones.,Cloud Infrastructure,Almacenamiento,Replicación de datos
+TKT-0262,Problema con Latencia de red,Cloud Infrastructure,Redes,Latencia de red
+TKT-0263,Error al consultar el historial de alertas desde la consola web.,Performance & Monitoring,Alertas,Historial de alertas
+TKT-0264,Los permisos de OAuth no están reflejando lo que solicité.,API Management,Autenticación,OAuth 2.0
+TKT-0265,El código 2FA que genero no es válido.,Billing & Account,Acceso,Dos factores
+TKT-0266,El filtrado por usuario no funciona correctamente.,Performance & Monitoring,Logs,Filtrado de eventos
+TKT-0267,El enlace de recuperación está roto.,Billing & Account,Acceso,Recuperación de contraseña
+TKT-0268,Mi uso de CPU es muy alto. ¿Cómo lo optimizo?,Performance & Monitoring,Métricas,CPU y memoria
+TKT-0269,¿Puedo solicitar una excepción temporal para superar límites?,API Management,Rate Limiting,Excepciones temporales
+TKT-0270,Necesito reiniciar una instancia. ¿Hay downtime asociado?,Cloud Infrastructure,Instancias,Reinicio de instancia
+TKT-0271,¿Cuál es el SLA de disponibilidad?,Performance & Monitoring,Métricas,Disponibilidad del servicio
+TKT-0272,El servidor de desarrollo no funciona.,Soporte Técnico,Instalación,Entorno de desarrollo
+TKT-0273,Problema con Configuración de firewall,Cloud Infrastructure,Redes,Configuración de firewall
+TKT-0274,Reinicié el servidor pero no volvió a arrancar. ¿Qué pasó?,Cloud Infrastructure,Instancias,Reinicio de instancia
+TKT-0275,¿Cuándo se elimina soporte para versiones antiguas?,API Management,Integración,Versionamiento
+TKT-0276,¿Qué causa error 500 en esta API?,Soporte Técnico,Errores,Error 500
+TKT-0277,¿Hay Docker compose para desarrollo?,Soporte Técnico,Instalación,Entorno de desarrollo
+TKT-0278,Problema con Balanceador de carga,Cloud Infrastructure,Redes,Balanceador de carga
+TKT-0279,Mi cuenta está temporalmente deshabilitada.,Billing & Account,Acceso,Suspensión de cuenta
+TKT-0280,Mi librería cliente no es compatible con la nueva versión de API.,API Management,Integración,Compatibilidad
+TKT-0281,¿Cómo cambio de plan desde el dashboard?,Billing & Account,Suscripción,Cambio de plan
+TKT-0282,Cancelación de cuenta rechazada sin explicación.,Billing & Account,Suscripción,Cancelación de cuenta
+TKT-0283,¿Puedo crear filtros salvados?,Performance & Monitoring,Logs,Filtrado de eventos
+TKT-0284,Mi ciclo de facturación es confuso. ¿Cuándo se me cobra?,Billing & Account,Facturación,Ciclo de facturación
+TKT-0285,El historial de alertas muestra discrepancias en los tiempos de resolución.,Performance & Monitoring,Alertas,Historial de alertas
+TKT-0286,Conflicto de dependencias con mi proyecto.,Soporte Técnico,Instalación,Dependencias faltantes
+TKT-0287,¿Hay downtime planeado próximamente?,Soporte Técnico,Mantenimiento,Downtime planificado
+TKT-0288,Quiero alertas cuando me acerque al 80% de cuota.,API Management,Rate Limiting,Monitoreo de uso
+TKT-0289,¿Cómo visualizo tendencias mes a mes?,Performance & Monitoring,Métricas,Comparativa de periodos
+TKT-0290,¿Cómo configuro alertas cuando hay errores?,Performance & Monitoring,Logs,Alertas de error
+TKT-0291,El scaling down es muy agresivo y causa caídas de servicio.,Cloud Infrastructure,Instancias,Escalabilidad automática
+TKT-0292,El reinicio está tardando demasiado. Lleva más de 20 minutos.,Cloud Infrastructure,Instancias,Reinicio de instancia
+TKT-0293,El dashboard de uso muestra números inconsistentes.,API Management,Rate Limiting,Monitoreo de uso
+TKT-0294,Necesito replicar datos a múltiples datacenters.,Cloud Infrastructure,Almacenamiento,Replicación de datos
+TKT-0295,¿Cómo calcula el sistema el ciclo de facturación?,Billing & Account,Facturación,Ciclo de facturación
+TKT-0296,¿Cuánto tarda en procesarse un reembolso?,Billing & Account,Facturación,Reembolsos
+TKT-0297,"Necesito reembolso parcial, ¿es posible?",Billing & Account,Facturación,Reembolsos
+TKT-0298,El nuevo email ya está registrado en otra cuenta.,Billing & Account,Acceso,Cambio de correo
+TKT-0299,El servidor está lento. Los tiempos de respuesta se han degradado en las últimas horas.,Cloud Infrastructure,Instancias,Rendimiento de servidor
+TKT-0300,¿Cuándo se elimina soporte para versiones antiguas?,API Management,Integración,Versionamiento
+TKT-0301,Problema con Conectividad VPC,Cloud Infrastructure,Redes,Conectividad VPC
+TKT-0302,Necesito un servidor con mayor capacidad. ¿Cuál es el proceso para provisionar una instancia más grande?,Cloud Infrastructure,Instancias,Provisión de servidor
+TKT-0303,El downtime planificado afectará mis clientes.,Soporte Técnico,Mantenimiento,Downtime planificado
+TKT-0304,¿Puedo elegir renovación manual en lugar de automática?,Billing & Account,Suscripción,Renovación automática
+TKT-0305,¿Dónde puedo descargar mis backups?,Cloud Infrastructure,Almacenamiento,Backup y recuperación
+TKT-0306,No puedo instalar el SDK de Python.,Soporte Técnico,Instalación,Instalación de SDK
+TKT-0307,Las solicitudes a la API tienen timeout.,Soporte Técnico,Errores,Timeout de conexión
+TKT-0308,¿Cómo mido la latencia de respuesta?,Performance & Monitoring,Métricas,Latencia de respuesta
+TKT-0309,¿Cuándo son las ventanas de mantenimiento?,Soporte Técnico,Mantenimiento,Ventanas de mantenimiento
+TKT-0310,¿Puedo revertir después de migrar?,Soporte Técnico,Mantenimiento,Migraciones
+TKT-0311,¿Hay delay configurable en escalamiento?,Performance & Monitoring,Alertas,Escalamiento de alertas
+TKT-0312,La migración falló a mitad del proceso.,Soporte Técnico,Mantenimiento,Migraciones
+TKT-0313,Error: módulo no encontrado después de instalar.,Soporte Técnico,Instalación,Dependencias faltantes
+TKT-0314,¿Se eliminan mis datos después de cancelar?,Billing & Account,Suscripción,Cancelación de cuenta
+TKT-0315,¿Se notifica con anticipación antes del mantenimiento?,Soporte Técnico,Mantenimiento,Ventanas de mantenimiento
+TKT-0316,¿Hay promociones actuales disponibles?,Billing & Account,Suscripción,Promociones
+TKT-0317,¿Cuál es el procedimiento recomendado para reiniciar en producción?,Cloud Infrastructure,Instancias,Reinicio de instancia
+TKT-0318,No recibo notificaciones de alertas.,Performance & Monitoring,Logs,Alertas de error
+TKT-0319,Problema con Configuración de firewall,Cloud Infrastructure,Redes,Configuración de firewall
+TKT-0320,Recuperé datos pero faltan archivos de hace 3 días.,Cloud Infrastructure,Almacenamiento,Backup y recuperación
+TKT-0321,¿Con qué frecuencia se hacen backups automáticos?,Cloud Infrastructure,Almacenamiento,Backup y recuperación
+TKT-0322,El token es válido pero retorna 403.,Soporte Técnico,Errores,Error 403
+TKT-0323,Los nuevos servidores del auto-scaling no reciben tráfico equitativamente.,Cloud Infrastructure,Instancias,Escalabilidad automática
+TKT-0324,Necesito un servidor con mayor capacidad. ¿Cuál es el proceso para provisionar una instancia más grande?,Cloud Infrastructure,Instancias,Provisión de servidor
+TKT-0325,No recibo notificaciones de alertas.,Performance & Monitoring,Logs,Alertas de error
+TKT-0326,Problema con DNS y dominios,Cloud Infrastructure,Redes,DNS y dominios
+TKT-0327,Necesito restaurar a una versión anterior de mis datos.,Cloud Infrastructure,Almacenamiento,Backup y recuperación
+TKT-0328,Falta documentación sobre parámetros opcionales.,API Management,Integración,Documentación de API
+TKT-0329,Problema con Balanceador de carga,Cloud Infrastructure,Redes,Balanceador de carga
+TKT-0330,No recibo notificaciones de alertas.,Performance & Monitoring,Alertas,Notificaciones
+TKT-0331,Necesito comparar uso de enero vs febrero.,Performance & Monitoring,Métricas,Comparativa de periodos
+TKT-0332,¿Cómo configuro el auto-scaling para que agregue más servidores?,Cloud Infrastructure,Instancias,Escalabilidad automática
+TKT-0333,Necesito comparar uso de enero vs febrero.,Performance & Monitoring,Métricas,Comparativa de periodos
+TKT-0334,¿Cuánto tarda en completarse la provisión de un servidor nuevo?,Cloud Infrastructure,Instancias,Provisión de servidor
+TKT-0335,¿Cómo configuro escalamiento de alertas?,Performance & Monitoring,Alertas,Escalamiento de alertas
+TKT-0336,El scaling down es muy agresivo y causa caídas de servicio.,Cloud Infrastructure,Instancias,Escalabilidad automática
+TKT-0337,Tengo un código de promoción pero no puedo aplicarlo.,Billing & Account,Suscripción,Promociones
+TKT-0338,¿Cuál es el timeout máximo permitido?,Soporte Técnico,Errores,Timeout de conexión
+TKT-0339,Necesito restaurar a una versión anterior de mis datos.,Cloud Infrastructure,Almacenamiento,Backup y recuperación
+TKT-0340,¿Puedo solicitar una excepción temporal para superar límites?,API Management,Rate Limiting,Excepciones temporales
+TKT-0341,¿Cuál es la cuota incluida en mi plan?,API Management,Rate Limiting,Cuotas de API
+TKT-0342,¿Cómo configuro el auto-scaling para que agregue más servidores?,Cloud Infrastructure,Instancias,Escalabilidad automática
+TKT-0343,¿Hay guía de migraciones entre versiones de API?,API Management,Integración,Documentación de API
+TKT-0344,Problema con DNS y dominios,Cloud Infrastructure,Redes,DNS y dominios
+TKT-0345,Un endpoint que uso será deprecado en 30 días.,API Management,Integración,Deprecación de endpoints
+TKT-0346,Problema con Balanceador de carga,Cloud Infrastructure,Redes,Balanceador de carga
+TKT-0347,Mi cuenta fue suspendida sin aviso. ¿Por qué?,Billing & Account,Acceso,Suspensión de cuenta
+TKT-0348,¿Hay downtime planeado próximamente?,Soporte Técnico,Mantenimiento,Downtime planificado
+TKT-0349,¿Cómo uso umbrales dinámicos?,Performance & Monitoring,Alertas,Umbrales de disparo
+TKT-0350,¿Cuál es la política de reembolsos?,Billing & Account,Facturación,Reembolsos
+TKT-0351,Necesito reconfigurar el URL de mi webhook.,API Management,Integración,Webhook
+TKT-0352,El pago se procesó pero la suscripción no se activó.,Billing & Account,Facturación,Métodos de pago
+TKT-0353,¿Cómo configuro el SDK después de instalarlo?,Soporte Técnico,Instalación,Configuración inicial
+TKT-0354,¿Se notifica con anticipación antes del mantenimiento?,Soporte Técnico,Mantenimiento,Ventanas de mantenimiento
+TKT-0355,¿Puedo crear roles personalizados?,Billing & Account,Acceso,Permisos de usuario
+TKT-0356,¿Cómo debuggeo un error 500?,Soporte Técnico,Errores,Error 500
+TKT-0357,Hay breaking changes en la migración.,Soporte Técnico,Mantenimiento,Migraciones
+TKT-0358,Necesito búsqueda full-text en logs.,Performance & Monitoring,Logs,Filtrado de eventos
+TKT-0359,¿Con qué frecuencia se hacen backups automáticos?,Cloud Infrastructure,Almacenamiento,Backup y recuperación
+TKT-0360,¿Cómo elimino datos de forma permanente y segura?,Cloud Infrastructure,Almacenamiento,Eliminación de datos
+TKT-0361,¿Dónde puedo descargar mis backups?,Cloud Infrastructure,Almacenamiento,Backup y recuperación
+TKT-0362,¿Dónde descargo reportes de uso de API?,API Management,Rate Limiting,Monitoreo de uso
+TKT-0363,La documentación no indica qué endpoints están deprecados.,API Management,Integración,Deprecación de endpoints
+TKT-0364,"Refresh token expirado, ¿cómo lo renuevo?",API Management,Autenticación,OAuth 2.0
+TKT-0365,Las consultas al almacenamiento son muy lentas. Toma 5 segundos.,Cloud Infrastructure,Almacenamiento,Velocidad de acceso
+TKT-0366,El token es válido pero retorna 403.,Soporte Técnico,Errores,Error 403
+TKT-0367,¿Hay guía de troubleshooting?,Soporte Técnico,Instalación,Documentación incompleta
+TKT-0368,Problema con Balanceador de carga,Cloud Infrastructure,Redes,Balanceador de carga
+TKT-0369,Error al validar JWT: 'firma inválida'.,API Management,Autenticación,Token JWT
+TKT-0370,Los tokens JWT que genero no son válidos.,API Management,Autenticación,Token JWT
+TKT-0371,La configuración inicial no está clara en la documentación.,Soporte Técnico,Instalación,Configuración inicial
+TKT-0372,¿Cuál es el SLA de disponibilidad?,Performance & Monitoring,Métricas,Disponibilidad del servicio
+TKT-0373,Pagué a mitad de mes y me cobran el ciclo completo.,Billing & Account,Facturación,Ciclo de facturación
+TKT-0374,¿Con qué anticipación debo renovar antes de la expiración?,API Management,Autenticación,Renovación de credenciales
+TKT-0375,¿Cuáles son los métodos de pago disponibles?,Billing & Account,Facturación,Métodos de pago
+TKT-0376,Un endpoint que uso será deprecado en 30 días.,API Management,Integración,Deprecación de endpoints
+TKT-0377,Compatibilidad rota entre mi código y la API.,API Management,Integración,Compatibilidad
+TKT-0378,Hice reset de contraseña pero no puedo acceder.,Billing & Account,Acceso,Recuperación de contraseña
+TKT-0379,¿Cuándo son las ventanas de mantenimiento?,Soporte Técnico,Mantenimiento,Ventanas de mantenimiento
+TKT-0380,¿Cómo monitoreo el uso de mi API en tiempo real?,API Management,Rate Limiting,Monitoreo de uso
+TKT-0381,No puedo crear una nueva instancia de servidor. Me aparece error de permisos al intentar provisionar desde el dashboard.,Cloud Infrastructure,Instancias,Provisión de servidor
+TKT-0382,¿Cuándo son las ventanas de mantenimiento?,Soporte Técnico,Mantenimiento,Ventanas de mantenimiento
+TKT-0383,Cambio de email no se reflejó en el sistema.,Billing & Account,Acceso,Cambio de correo
+TKT-0384,Umbral de alerta no se aplica correctamente.,Performance & Monitoring,Alertas,Umbrales de disparo
+TKT-0385,Pagué a mitad de mes y me cobran el ciclo completo.,Billing & Account,Facturación,Ciclo de facturación
+TKT-0386,Solicité un reembolso hace una semana. ¿Dónde está?,Billing & Account,Facturación,Reembolsos
+TKT-0387,Necesito refrescar tokens sin que expire la sesión.,API Management,Autenticación,Token JWT
+TKT-0388,Mi cuenta fue suspendida sin aviso. ¿Por qué?,Billing & Account,Acceso,Suspensión de cuenta
+TKT-0389,¿Cuáles son las dependencias del SDK?,Soporte Técnico,Instalación,Instalación de SDK
+TKT-0390,Problema con Balanceador de carga,Cloud Infrastructure,Redes,Balanceador de carga
+TKT-0391,Mis credenciales caducaron y no puedo acceder.,API Management,Autenticación,Renovación de credenciales
+TKT-0392,¿Cómo pruebo que mi webhook está funcionando?,API Management,Integración,Webhook
+TKT-0393,¿Hay archivo de configuración de ejemplo?,Soporte Técnico,Instalación,Configuración inicial
+TKT-0394,Problema con Configuración de firewall,Cloud Infrastructure,Redes,Configuración de firewall
+TKT-0395,¿Cuál es el proceso para apelar una suspensión?,Billing & Account,Acceso,Suspensión de cuenta
+TKT-0396,Las notificaciones llegan atrasadas.,Performance & Monitoring,Alertas,Notificaciones
+TKT-0397,Cambié de plan pero la factura no reflejó el cambio.,Billing & Account,Suscripción,Cambio de plan
+TKT-0398,Necesito búsqueda full-text en logs.,Performance & Monitoring,Logs,Filtrado de eventos
+TKT-0399,¿Cómo afecta el mantenimiento a mi servicio?,Soporte Técnico,Mantenimiento,Ventanas de mantenimiento
+TKT-0400,Error al provisionar instancia: timeout en la creación. Reintenté varias veces sin éxito.,Cloud Infrastructure,Instancias,Provisión de servidor
+TKT-0401,Mis credenciales caducaron y no puedo acceder.,API Management,Autenticación,Renovación de credenciales
+TKT-0402,El percentil P99 de latencia es muy alto.,Performance & Monitoring,Métricas,Latencia de respuesta
+TKT-0403,Superar la cuota causa que la API retorne errores.,API Management,Rate Limiting,Cuotas de API
+TKT-0404,Error: módulo no encontrado después de instalar.,Soporte Técnico,Instalación,Dependencias faltantes
+TKT-0405,"Los logs están incompletos, faltan eventos.",Performance & Monitoring,Logs,Acceso a logs
+TKT-0406,Mi versión de librería no es compatible.,Soporte Técnico,Errores,Problema de compatibilidad
+TKT-0407,¿Cómo calculo si voy a superar el límite de rate?,API Management,Rate Limiting,Límites de rate
+TKT-0408,Error 500 con mensaje poco útil.,Soporte Técnico,Errores,Error 500
+TKT-0409,Error en configuración inicial del SDK.,Soporte Técnico,Instalación,Configuración inicial
+TKT-0410,¿Cómo monitoreo el uso de mi API en tiempo real?,API Management,Rate Limiting,Monitoreo de uso
+TKT-0411,No puedo crear una nueva instancia de servidor. Me aparece error de permisos al intentar provisionar desde el dashboard.,Cloud Infrastructure,Instancias,Provisión de servidor
+TKT-0412,Problema con Configuración de firewall,Cloud Infrastructure,Redes,Configuración de firewall
+TKT-0413,El bug aparece solo en condiciones específicas.,Soporte Técnico,Errores,Bug en feature
+TKT-0414,El histórico de disponibilidad no es exacto.,Performance & Monitoring,Métricas,Disponibilidad del servicio
+TKT-0415,¿Cuál es el proceso para instalar un certificado SSL personalizado?,API Management,Autenticación,Certificados SSL
+TKT-0416,Pago rechazado y fui cobrado igual. ¿Puedo obtener reembolso?,Billing & Account,Facturación,Reembolsos
+TKT-0417,¿Dónde pongo mis credenciales?,Soporte Técnico,Instalación,Configuración inicial
+TKT-0418,¿Cómo configuro OAuth 2.0 para mi aplicación?,API Management,Autenticación,OAuth 2.0
+TKT-0419,Recuperé datos pero faltan archivos de hace 3 días.,Cloud Infrastructure,Almacenamiento,Backup y recuperación
+TKT-0420,No puedo instalar el SDK de Python.,Soporte Técnico,Instalación,Instalación de SDK
+TKT-0421,Downgrade de plan causó que perdiera features.,Billing & Account,Suscripción,Cambio de plan
+TKT-0422,Solicité cancelación pero aún me está cobrando.,Billing & Account,Suscripción,Cancelación de cuenta
+TKT-0423,Necesito un límite más alto de requests/segundo.,API Management,Rate Limiting,Límites de rate
+TKT-0424,Promoción aplicada incorrectamente en la factura.,Billing & Account,Suscripción,Promociones
+TKT-0425,"Después del reinicio, los datos no persistieron. ¿Dónde guardé mal?",Cloud Infrastructure,Instancias,Reinicio de instancia
+TKT-0426,Los eventos del webhook llegan con mucho retraso.,API Management,Integración,Webhook
+TKT-0427,Se me cobraron servicios que no usé.,Billing & Account,Facturación,Factura incorrecta
+TKT-0428,¿Cuál es el lag de replicación en tiempo real?,Cloud Infrastructure,Almacenamiento,Replicación de datos
+TKT-0429,Problema con Conectividad VPC,Cloud Infrastructure,Redes,Conectividad VPC
+TKT-0430,Necesito información sobre downtime anunciado.,Soporte Técnico,Mantenimiento,Downtime planificado
+TKT-0431,¿Cómo cambio el canal de notificaciones (email vs SMS)?,Performance & Monitoring,Alertas,Notificaciones
+TKT-0432,No veo el desglose de uso por endpoint.,API Management,Rate Limiting,Monitoreo de uso
+TKT-0433,Encontré un bug en esta feature.,Soporte Técnico,Errores,Bug en feature
+TKT-0434,¿Con qué anticipación debo renovar antes de la expiración?,API Management,Autenticación,Renovación de credenciales
+TKT-0435,Falta documentación sobre parámetros opcionales.,API Management,Integración,Documentación de API
+TKT-0436,Error 500 con mensaje poco útil.,Soporte Técnico,Errores,Error 500
+TKT-0437,¿Puedo programar exportaciones automáticas?,Performance & Monitoring,Logs,Exportación de reportes
+TKT-0438,Los nuevos servidores del auto-scaling no reciben tráfico equitativamente.,Cloud Infrastructure,Instancias,Escalabilidad automática
+TKT-0439,El servidor deja de responder a las 3 PM diariamente. Sospecho que es un problema de carga.,Cloud Infrastructure,Instancias,Rendimiento de servidor
+TKT-0440,¿Puedo elegir renovación manual en lugar de automática?,Billing & Account,Suscripción,Renovación automática
+TKT-0441,Compré un plan anual pero no veo descuento aplicado.,Billing & Account,Facturación,Descuentos no aplicados
+TKT-0442,Cambié de email pero sigo recibiendo notificaciones en el viejo.,Billing & Account,Acceso,Cambio de correo
+TKT-0443,Tengo derecho a descuento por volumen pero no lo veo.,Billing & Account,Facturación,Descuentos no aplicados
+TKT-0444,¿Dónde descargo reportes de uso de API?,API Management,Rate Limiting,Monitoreo de uso
+TKT-0445,¿Puedo hacer umbrales escalonados?,Performance & Monitoring,Alertas,Umbrales de disparo
+TKT-0446,Mi factura es más alta que lo esperado. ¿Por qué?,Billing & Account,Facturación,Factura incorrecta
+TKT-0447,¿Cómo restringo una API key a ciertos endpoints?,API Management,Autenticación,API Keys
+TKT-0448,"Refresh token expirado, ¿cómo lo renuevo?",API Management,Autenticación,OAuth 2.0
+TKT-0449,¿Hay delay configurable en escalamiento?,Performance & Monitoring,Alertas,Escalamiento de alertas
+TKT-0450,No puedo cambiar el período de tiempo en gráficos.,Performance & Monitoring,Métricas,Gráficos de uso
+TKT-0451,El sistema me advierte que solo tengo 5% de espacio libre.,Cloud Infrastructure,Almacenamiento,Capacidad de almacenamiento
+TKT-0452,Algunos archivos se descargan rápido y otros muy lento.,Cloud Infrastructure,Almacenamiento,Velocidad de acceso
+TKT-0453,No veo el desglose de uso por endpoint.,API Management,Rate Limiting,Monitoreo de uso
+TKT-0454,Notificación duplicada para la misma alerta.,Performance & Monitoring,Alertas,Notificaciones
+TKT-0455,Limpieza de base de datos dejó inconsistencias.,Soporte Técnico,Mantenimiento,Limpieza de base de datos
+TKT-0456,El backup falló. No me muestra si fue completado.,Cloud Infrastructure,Almacenamiento,Backup y recuperación
+TKT-0457,¿Dónde encuentro ejemplos de código en Python?,API Management,Integración,Documentación de API
+TKT-0458,Mi certificado SSL está a punto de expirar.,API Management,Autenticación,Certificados SSL
+TKT-0459,¿Puedo obtener una factura detallada con breakdown por servicio?,Billing & Account,Facturación,Factura incorrecta
+TKT-0460,Hay breaking changes en la migración.,Soporte Técnico,Mantenimiento,Migraciones
+TKT-0461,¿Dónde veo el status actual del servicio?,Performance & Monitoring,Métricas,Disponibilidad del servicio
+TKT-0462,¿Qué pasa con el prorrateo si cambio de plan mid-ciclo?,Billing & Account,Facturación,Ciclo de facturación
+TKT-0463,El bug aparece solo en condiciones específicas.,Soporte Técnico,Errores,Bug en feature
+TKT-0464,¿Cuál es el SLA de disponibilidad?,Performance & Monitoring,Métricas,Disponibilidad del servicio
+TKT-0465,¿Hay downtime planeado próximamente?,Soporte Técnico,Mantenimiento,Downtime planificado
+TKT-0466,"El throttling es impredecible, a veces bloquea, a veces no.",API Management,Rate Limiting,Throttling
+TKT-0467,La factura no coincide con el desglose de uso.,Billing & Account,Facturación,Factura incorrecta
+TKT-0468,Compatibilidad rota entre mi código y la API.,API Management,Integración,Compatibilidad
+TKT-0469,Mi uso de CPU es muy alto. ¿Cómo lo optimizo?,Performance & Monitoring,Métricas,CPU y memoria
+TKT-0470,¿Cuál es el timeout máximo permitido?,Soporte Técnico,Errores,Timeout de conexión
+TKT-0471,¿Cómo cambio el canal de notificaciones (email vs SMS)?,Performance & Monitoring,Alertas,Notificaciones
+TKT-0472,Necesito retención más larga de 30 días.,Performance & Monitoring,Logs,Retención de datos
+TKT-0473,Quiero cambiar a un plan más barato. ¿Afecta mi servicio?,Billing & Account,Suscripción,Cambio de plan
+TKT-0474,¿Dónde puedo descargar logs en formato CSV?,Performance & Monitoring,Logs,Acceso a logs
+TKT-0475,Error 403 inconsistente en la misma solicitud.,Soporte Técnico,Errores,Error 403
+TKT-0476,¿Dónde reporto bugs?,Soporte Técnico,Errores,Bug en feature
+TKT-0477,Superar la cuota causa que la API retorne errores.,API Management,Rate Limiting,Cuotas de API
+TKT-0478,Necesito reiniciar una instancia. ¿Hay downtime asociado?,Cloud Infrastructure,Instancias,Reinicio de instancia
+TKT-0479,Quiero cancelar mi cuenta. ¿Cuál es el proceso?,Billing & Account,Suscripción,Cancelación de cuenta
+TKT-0480,El reinicio está tardando demasiado. Lleva más de 20 minutos.,Cloud Infrastructure,Instancias,Reinicio de instancia
+TKT-0481,¿Cómo optimizo la velocidad de lectura/escritura?,Cloud Infrastructure,Almacenamiento,Velocidad de acceso
+TKT-0482,He alcanzado el límite de almacenamiento. ¿Cómo aumento la capacidad?,Cloud Infrastructure,Almacenamiento,Capacidad de almacenamiento
+TKT-0483,Error al provisionar instancia: timeout en la creación. Reintenté varias veces sin éxito.,Cloud Infrastructure,Instancias,Provisión de servidor
+TKT-0484,¿Cómo mido la latencia de respuesta?,Performance & Monitoring,Métricas,Latencia de respuesta
+TKT-0485,¿Puedo aumentar la velocidad de throttling?,API Management,Rate Limiting,Throttling
+TKT-0486,¿Qué formatos soportan para exportación?,Performance & Monitoring,Logs,Exportación de reportes
+TKT-0487,No recibo email de recuperación de contraseña.,Billing & Account,Acceso,Recuperación de contraseña
+TKT-0488,¿Cuál es el lag de replicación en tiempo real?,Cloud Infrastructure,Almacenamiento,Replicación de datos
+TKT-0489,No puedo cambiar el período de tiempo en gráficos.,Performance & Monitoring,Métricas,Gráficos de uso
+TKT-0490,¿Cuál es la diferencia entre planes: starter vs professional?,Billing & Account,Suscripción,Upgrades y downgrades
+TKT-0491,Olvidé mi contraseña y no tengo acceso al email.,Billing & Account,Acceso,Recuperación de contraseña
+TKT-0492,¿Dónde puedo ver mi uso actual vs cuota?,API Management,Rate Limiting,Cuotas de API
+TKT-0493,¿Necesito token especial para integrar Slack?,Performance & Monitoring,Alertas,Integración con Slack
+TKT-0494,¿Cómo configuro el auto-scaling para que agregue más servidores?,Cloud Infrastructure,Instancias,Escalabilidad automática
+TKT-0495,Los permisos de usuario no se aplican correctamente.,Billing & Account,Acceso,Permisos de usuario
+TKT-0496,Limpieza de base de datos dejó inconsistencias.,Soporte Técnico,Mantenimiento,Limpieza de base de datos
+TKT-0497,El percentil P99 de latencia es muy alto.,Performance & Monitoring,Métricas,Latencia de respuesta
+TKT-0498,Timeout en solicitudes específicas pero no en otras.,Soporte Técnico,Errores,Timeout de conexión
+TKT-0499,¿Dónde veo el status actual del servicio?,Performance & Monitoring,Métricas,Disponibilidad del servicio
+TKT-0500,El servidor retorna 500 pero el servicio está activo.,Soporte Técnico,Errores,Error 500
+TKT-0501,Algunos datos deletreados siguen apareciendo en las consultas.,Cloud Infrastructure,Almacenamiento,Eliminación de datos
+TKT-0502,Hay incompatibilidad entre módulos.,Soporte Técnico,Errores,Problema de compatibilidad
+TKT-0503,¿Hay opción de gráficos personalizados?,Performance & Monitoring,Métricas,Gráficos de uso
+TKT-0504,Perdí mi API key. ¿Cómo genero una nueva?,API Management,Autenticación,API Keys
+TKT-0505,¿Cómo visualizo tendencias mes a mes?,Performance & Monitoring,Métricas,Comparativa de periodos
+TKT-0506,¿Dónde está el cuello de botella en latencia?,Performance & Monitoring,Métricas,Latencia de respuesta
+TKT-0507,La versión antigua de la API será deprecada. ¿Qué debo hacer?,API Management,Integración,Versionamiento
+TKT-0508,¿Hay herramienta de limpieza automática?,Soporte Técnico,Mantenimiento,Limpieza de base de datos
+TKT-0509,¿Cómo me notifico de nuevos parches?,Soporte Técnico,Mantenimiento,Actualizaciones de parches
+TKT-0510,¿Cómo implemento reintentos exponenciales para throttling?,API Management,Rate Limiting,Throttling
+TKT-0511,Necesito tiempo extra antes de que deprecen mi endpoint.,API Management,Integración,Deprecación de endpoints
+TKT-0512,¿Hay guía de migraciones de compatibilidad?,Soporte Técnico,Errores,Problema de compatibilidad
+TKT-0513,¿Cuál es el costo de agregar más almacenamiento?,Cloud Infrastructure,Almacenamiento,Capacidad de almacenamiento
+TKT-0514,Reinicié el servidor pero no volvió a arrancar. ¿Qué pasó?,Cloud Infrastructure,Instancias,Reinicio de instancia
+TKT-0515,Solicité un reembolso hace una semana. ¿Dónde está?,Billing & Account,Facturación,Reembolsos
+TKT-0516,Necesito exportar logs en formato JSON.,Performance & Monitoring,Logs,Exportación de reportes
+TKT-0517,¿Hay penalidad por downgrade frecuente?,Billing & Account,Suscripción,Upgrades y downgrades
+TKT-0518,Estoy recibiendo error 429 (Too Many Requests) constantemente.,API Management,Rate Limiting,Límites de rate
+TKT-0519,¿Cómo migro a la nueva versión de la plataforma?,Soporte Técnico,Mantenimiento,Migraciones
+TKT-0520,La replicación falló y no sé por qué.,Cloud Infrastructure,Almacenamiento,Replicación de datos
+TKT-0521,Problema con Latencia de red,Cloud Infrastructure,Redes,Latencia de red
+TKT-0522,Recibo error 500 intermitente.,Soporte Técnico,Errores,Error 500
+TKT-0523,¿Puedo enviar alertas a un canal específico?,Performance & Monitoring,Alertas,Integración con Slack
+TKT-0524,¿Cómo configuro el SDK después de instalarlo?,Soporte Técnico,Instalación,Configuración inicial
+TKT-0525,La documentación no menciona este parámetro.,Soporte Técnico,Instalación,Documentación incompleta
+TKT-0526,Promoción aplicada incorrectamente en la factura.,Billing & Account,Suscripción,Promociones
+TKT-0527,Mi factura es más alta que lo esperado. ¿Por qué?,Billing & Account,Facturación,Factura incorrecta
+TKT-0528,¿Cómo desactivo la renovación automática?,Billing & Account,Suscripción,Renovación automática
+TKT-0529,Necesito búsqueda full-text en logs.,Performance & Monitoring,Logs,Filtrado de eventos
+TKT-0530,Hice upgrade pero no tengo acceso a nuevas features.,Billing & Account,Suscripción,Upgrades y downgrades
+TKT-0531,¿Cuál es la duración máxima de un JWT?,API Management,Autenticación,Token JWT
+TKT-0532,¿Cuáles son los requisitos mínimos de compatibilidad?,API Management,Integración,Compatibilidad
+TKT-0533,Error en configuración inicial del SDK.,Soporte Técnico,Instalación,Configuración inicial
+TKT-0534,Error al validar JWT: 'firma inválida'.,API Management,Autenticación,Token JWT
+TKT-0535,¿Cuándo son las ventanas de mantenimiento?,Soporte Técnico,Mantenimiento,Ventanas de mantenimiento
+TKT-0536,¿Dónde encuentro ejemplos de código en Python?,API Management,Integración,Documentación de API
+TKT-0537,¿Cómo configuro OAuth 2.0 para mi aplicación?,API Management,Autenticación,OAuth 2.0
+TKT-0538,La alerta que creé no se está disparando.,Performance & Monitoring,Alertas,Configuración de alertas
+TKT-0539,Los nuevos servidores del auto-scaling no reciben tráfico equitativamente.,Cloud Infrastructure,Instancias,Escalabilidad automática
+TKT-0540,El token es válido pero retorna 403.,Soporte Técnico,Errores,Error 403
+TKT-0541,Estoy recibiendo error 429 (Too Many Requests) constantemente.,API Management,Rate Limiting,Límites de rate
+TKT-0542,¿Cómo migro mi aplicación a una instancia diferente sin downtime?,Cloud Infrastructure,Instancias,Migración de servidor
+TKT-0543,Error 500 con mensaje poco útil.,Soporte Técnico,Errores,Error 500
+TKT-0544,¿Puedo exportar comparativas en gráfico?,Performance & Monitoring,Métricas,Comparativa de periodos
+TKT-0545,¿Cuál es la diferencia entre planes: starter vs professional?,Billing & Account,Suscripción,Upgrades y downgrades
+TKT-0546,Timeout aleatorio sin patrón aparente.,Soporte Técnico,Errores,Timeout de conexión
+TKT-0547,¿Puedo obtener una factura detallada con breakdown por servicio?,Billing & Account,Facturación,Factura incorrecta
+TKT-0548,Necesito cumplimiento GDPR: ¿cómo borro datos de usuarios?,Cloud Infrastructure,Almacenamiento,Eliminación de datos
+TKT-0549,¿Cómo accedo a los logs de mi aplicación?,Performance & Monitoring,Logs,Acceso a logs
+TKT-0550,¿Cuál es el costo de la escalabilidad automática?,Cloud Infrastructure,Instancias,Escalabilidad automática
+TKT-0551,La versión antigua de la API será deprecada. ¿Qué debo hacer?,API Management,Integración,Versionamiento
+TKT-0552,Necesito un límite más alto de requests/segundo.,API Management,Rate Limiting,Límites de rate
+TKT-0553,Error en configuración inicial del SDK.,Soporte Técnico,Instalación,Configuración inicial
+TKT-0554,Recibo 403 Forbidden aunque tengo permisos.,Soporte Técnico,Errores,Error 403
+TKT-0555,Filtrado de eventos está muy lento.,Performance & Monitoring,Logs,Filtrado de eventos
+TKT-0556,Las notificaciones llegan atrasadas.,Performance & Monitoring,Alertas,Notificaciones
+TKT-0557,¿Cómo cambio el canal de notificaciones (email vs SMS)?,Performance & Monitoring,Alertas,Notificaciones
+TKT-0558,¿Cuánto dura un downtime típico?,Soporte Técnico,Mantenimiento,Downtime planificado
+TKT-0559,La alerta que creé no se está disparando.,Performance & Monitoring,Alertas,Configuración de alertas
+TKT-0560,Los permisos de usuario no se aplican correctamente.,Billing & Account,Acceso,Permisos de usuario
+TKT-0561,¿Dónde encuentro la lista de dependencias?,Soporte Técnico,Instalación,Dependencias faltantes
+TKT-0562,Actualicé la librería y rompió mi código.,Soporte Técnico,Errores,Problema de compatibilidad
+TKT-0563,¿Hay guía paso a paso de migración?,Soporte Técnico,Mantenimiento,Migraciones
+TKT-0564,¿Puedo aumentar la velocidad de throttling?,API Management,Rate Limiting,Throttling
+TKT-0565,Reinicié el servidor pero no volvió a arrancar. ¿Qué pasó?,Cloud Infrastructure,Instancias,Reinicio de instancia
+TKT-0566,¿Dónde puedo descargar mis backups?,Cloud Infrastructure,Almacenamiento,Backup y recuperación
+TKT-0567,Un endpoint que uso será deprecado en 30 días.,API Management,Integración,Deprecación de endpoints
+TKT-0568,"Refresh token expirado, ¿cómo lo renuevo?",API Management,Autenticación,OAuth 2.0
+TKT-0569,¿Cuáles son los umbrales normales de CPU/memoria?,Performance & Monitoring,Métricas,CPU y memoria
+TKT-0570,¿Cuáles son las versiones mínimas de dependencias?,Soporte Técnico,Instalación,Dependencias faltantes
+TKT-0571,¿Cómo configuro el entorno para desarrollo local?,Soporte Técnico,Instalación,Entorno de desarrollo
+TKT-0572,El flujo OAuth no redirige correctamente al callback.,API Management,Autenticación,OAuth 2.0
+TKT-0573,El servidor está lento. Los tiempos de respuesta se han degradado en las últimas horas.,Cloud Infrastructure,Instancias,Rendimiento de servidor
+TKT-0574,¿Hay timeline de deprecación de features?,API Management,Integración,Deprecación de endpoints
+TKT-0575,¿Cuáles son los requisitos mínimos de compatibilidad?,API Management,Integración,Compatibilidad
+TKT-0576,Los permisos de OAuth no están reflejando lo que solicité.,API Management,Autenticación,OAuth 2.0
+TKT-0577,¿Por qué la memoria crece constantemente?,Performance & Monitoring,Métricas,CPU y memoria
+TKT-0578,¿Cómo me notifico de nuevos parches?,Soporte Técnico,Mantenimiento,Actualizaciones de parches
+TKT-0579,Picos de CPU pero no veo qué proceso los causa.,Performance & Monitoring,Métricas,CPU y memoria
+TKT-0580,Necesito cumplimiento GDPR: ¿cómo borro datos de usuarios?,Cloud Infrastructure,Almacenamiento,Eliminación de datos
+TKT-0581,Las notificaciones llegan atrasadas.,Performance & Monitoring,Alertas,Notificaciones
+TKT-0582,Quiero vaciar un bucket/tabla pero temo perder datos importantes.,Cloud Infrastructure,Almacenamiento,Eliminación de datos
+TKT-0583,El sistema me advierte que solo tengo 5% de espacio libre.,Cloud Infrastructure,Almacenamiento,Capacidad de almacenamiento
+TKT-0584,¿Cuál es el proceso para apelar una suspensión?,Billing & Account,Acceso,Suspensión de cuenta
+TKT-0585,Tengo un código de promoción pero no puedo aplicarlo.,Billing & Account,Suscripción,Promociones
+TKT-0586,Problema con DNS y dominios,Cloud Infrastructure,Redes,DNS y dominios
+TKT-0587,¿Hay penalidad por downgrade frecuente?,Billing & Account,Suscripción,Upgrades y downgrades
+TKT-0588,¿Dónde puedo descargar logs en formato CSV?,Performance & Monitoring,Logs,Acceso a logs
+TKT-0589,Se me cobraron servicios que no usé.,Billing & Account,Facturación,Factura incorrecta
+TKT-0590,Problema con DNS y dominios,Cloud Infrastructure,Redes,DNS y dominios
+TKT-0591,¿Cuáles son los requisitos de compatibilidad?,Soporte Técnico,Errores,Problema de compatibilidad
+TKT-0592,¿Hay costo adicional por retención extendida?,Performance & Monitoring,Logs,Retención de datos
+TKT-0593,¿Dónde pongo mis credenciales?,Soporte Técnico,Instalación,Configuración inicial
+TKT-0594,Necesito búsqueda full-text en logs.,Performance & Monitoring,Logs,Filtrado de eventos
+TKT-0595,¿Hay wrapper de API para Node.js?,API Management,Integración,Compatibilidad
+TKT-0596,Problema con Configuración de firewall,Cloud Infrastructure,Redes,Configuración de firewall
+TKT-0597,Los gráficos se actualizan muy lentamente.,Performance & Monitoring,Métricas,Gráficos de uso
+TKT-0598,La severidad de la alerta está mal clasificada.,Performance & Monitoring,Logs,Alertas de error
+TKT-0599,Problema con Configuración de firewall,Cloud Infrastructure,Redes,Configuración de firewall
+TKT-0600,Problema con DNS y dominios,Cloud Infrastructure,Redes,DNS y dominios
+TKT-0601,Problema con Latencia de red,Cloud Infrastructure,Redes,Latencia de red
+TKT-0602,Escalamiento de alerta ocurrió muy rápido.,Performance & Monitoring,Alertas,Escalamiento de alertas
+TKT-0603,"Los logs están incompletos, faltan eventos.",Performance & Monitoring,Logs,Acceso a logs
+TKT-0604,La latencia de mi API aumentó en las últimas horas.,Performance & Monitoring,Métricas,Latencia de respuesta
+TKT-0605,El servidor de desarrollo no funciona.,Soporte Técnico,Instalación,Entorno de desarrollo
+TKT-0606,¿Cómo configuro el entorno para desarrollo local?,Soporte Técnico,Instalación,Entorno de desarrollo
+TKT-0607,¿Cómo configuro OAuth 2.0 para mi aplicación?,API Management,Autenticación,OAuth 2.0
+TKT-0608,Faltan dependencias al instalar SDK.,Soporte Técnico,Instalación,Dependencias faltantes
+TKT-0609,El scaling down es muy agresivo y causa caídas de servicio.,Cloud Infrastructure,Instancias,Escalabilidad automática
+TKT-0610,¿Dónde está el cuello de botella en latencia?,Performance & Monitoring,Métricas,Latencia de respuesta
+TKT-0611,Hay incompatibilidad entre versiones de API.,API Management,Integración,Versionamiento
+TKT-0612,Necesito retención más larga de 30 días.,Performance & Monitoring,Logs,Retención de datos
+TKT-0613,Mis alertas se disparan por falsos positivos.,Performance & Monitoring,Alertas,Configuración de alertas
+TKT-0614,Mi API key fue comprometida. Necesito rotarla urgente.,API Management,Autenticación,API Keys
+TKT-0615,No tengo permisos para crear instancias. ¿Cómo lo cambio?,Billing & Account,Acceso,Permisos de usuario
+TKT-0616,Un mantenimiento no programado dejó el servicio caído.,Soporte Técnico,Mantenimiento,Ventanas de mantenimiento
+TKT-0617,¿Hay guía de migraciones entre versiones de API?,API Management,Integración,Documentación de API
+TKT-0618,¿Cuál es el límite de rate por defecto en la API?,API Management,Rate Limiting,Límites de rate
+TKT-0619,¿Cuánto tarda en completarse la provisión de un servidor nuevo?,Cloud Infrastructure,Instancias,Provisión de servidor
+TKT-0620,El proceso de eliminación está tardando demasiado.,Cloud Infrastructure,Almacenamiento,Eliminación de datos
+TKT-0621,No recibo email de recuperación de contraseña.,Billing & Account,Acceso,Recuperación de contraseña
+TKT-0622,¿Cómo hago debug de error 403?,Soporte Técnico,Errores,Error 403
+TKT-0623,Error de certificado: 'no confiable' al acceder a la API.,API Management,Autenticación,Certificados SSL
+TKT-0624,Necesito retención más larga de 30 días.,Performance & Monitoring,Logs,Retención de datos
+TKT-0625,Limpieza de base de datos dejó inconsistencias.,Soporte Técnico,Mantenimiento,Limpieza de base de datos
+TKT-0626,Hay incompatibilidad entre versiones de API.,API Management,Integración,Versionamiento
+TKT-0627,¿Se notifica con anticipación antes del mantenimiento?,Soporte Técnico,Mantenimiento,Ventanas de mantenimiento
+TKT-0628,Necesito restaurar a una versión anterior de mis datos.,Cloud Infrastructure,Almacenamiento,Backup y recuperación
+TKT-0629,¿Cómo me notifico de nuevos parches?,Soporte Técnico,Mantenimiento,Actualizaciones de parches
+TKT-0630,Problema con Latencia de red,Cloud Infrastructure,Redes,Latencia de red
+TKT-0631,¿Dónde puedo descargar mis backups?,Cloud Infrastructure,Almacenamiento,Backup y recuperación
+TKT-0632,Problema con Conectividad VPC,Cloud Infrastructure,Redes,Conectividad VPC
+TKT-0633,La migración falló a mitad del proceso.,Soporte Técnico,Mantenimiento,Migraciones
+TKT-0634,¿Hay archivo de configuración de ejemplo?,Soporte Técnico,Instalación,Configuración inicial
+TKT-0635,¿A quién se escala si no responde el equipo?,Performance & Monitoring,Alertas,Escalamiento de alertas
+TKT-0636,Promoción aplicada incorrectamente en la factura.,Billing & Account,Suscripción,Promociones
+TKT-0637,¿Dónde pongo mis credenciales?,Soporte Técnico,Instalación,Configuración inicial
+TKT-0638,Hay ejemplos incompletos en la documentación.,Soporte Técnico,Instalación,Documentación incompleta
+TKT-0639,Un endpoint que uso será deprecado en 30 días.,API Management,Integración,Deprecación de endpoints
+TKT-0640,¿Qué diferencia hay entre 403 y 401?,Soporte Técnico,Errores,Error 403
+TKT-0641,¿Dónde reporto bugs?,Soporte Técnico,Errores,Bug en feature
+TKT-0642,Mi versión de librería no es compatible.,Soporte Técnico,Errores,Problema de compatibilidad
+TKT-0643,Pagué a mitad de mes y me cobran el ciclo completo.,Billing & Account,Facturación,Ciclo de facturación
+TKT-0644,¿Hay herramienta de limpieza automática?,Soporte Técnico,Mantenimiento,Limpieza de base de datos
+TKT-0645,¿Hay opción de gráficos personalizados?,Performance & Monitoring,Métricas,Gráficos de uso
+TKT-0646,Necesito reconfigurar el URL de mi webhook.,API Management,Integración,Webhook
+TKT-0647,Filtrado de eventos está muy lento.,Performance & Monitoring,Logs,Filtrado de eventos
+TKT-0648,Mi token JWT expiró. ¿Cómo regenero uno nuevo?,API Management,Autenticación,Token JWT
+TKT-0649,No puedo crear una nueva instancia de servidor. Me aparece error de permisos al intentar provisionar desde el dashboard.,Cloud Infrastructure,Instancias,Provisión de servidor
+TKT-0650,Los tokens JWT que genero no son válidos.,API Management,Autenticación,Token JWT
+TKT-0651,¿Cómo sabré cuándo expira mi excepción temporal?,API Management,Rate Limiting,Excepciones temporales
+TKT-0652,¿Cómo uso umbrales dinámicos?,Performance & Monitoring,Alertas,Umbrales de disparo
+TKT-0653,Problema con Conectividad VPC,Cloud Infrastructure,Redes,Conectividad VPC
+TKT-0654,¿A quién se escala si no responde el equipo?,Performance & Monitoring,Alertas,Escalamiento de alertas
+TKT-0655,El bug fue introducido en la última actualización.,Soporte Técnico,Errores,Bug en feature
+TKT-0656,Problema con Balanceador de carga,Cloud Infrastructure,Redes,Balanceador de carga
+TKT-0657,El scaling down es muy agresivo y causa caídas de servicio.,Cloud Infrastructure,Instancias,Escalabilidad automática
+TKT-0658,"Después del reinicio, los datos no persistieron. ¿Dónde guardé mal?",Cloud Infrastructure,Instancias,Reinicio de instancia
+TKT-0659,Compatibilidad rota entre mi código y la API.,API Management,Integración,Compatibilidad
+TKT-0660,¿Puedo silenciar notificaciones en horarios específicos?,Performance & Monitoring,Alertas,Notificaciones
+TKT-0661,Las notificaciones llegan atrasadas.,Performance & Monitoring,Alertas,Notificaciones
+TKT-0662,El token es válido pero retorna 403.,Soporte Técnico,Errores,Error 403
+TKT-0663,Problema con Conectividad VPC,Cloud Infrastructure,Redes,Conectividad VPC
+TKT-0664,Algunos archivos se descargan rápido y otros muy lento.,Cloud Infrastructure,Almacenamiento,Velocidad de acceso
+TKT-0665,La replicación de datos está desfasada. Hay inconsistencia entre regiones.,Cloud Infrastructure,Almacenamiento,Replicación de datos
+TKT-0666,CPU al 100% constantemente. ¿Es normal? ¿Cómo optimizo?,Cloud Infrastructure,Instancias,Rendimiento de servidor
+TKT-0667,¿Cuál es el proceso para instalar un certificado SSL personalizado?,API Management,Autenticación,Certificados SSL
+TKT-0668,Promoción aplicada incorrectamente en la factura.,Billing & Account,Suscripción,Promociones
+TKT-0669,Mi servicio tuvo downtime anoche. ¿Qué pasó?,Performance & Monitoring,Métricas,Disponibilidad del servicio
+TKT-0670,He alcanzado el límite de almacenamiento. ¿Cómo aumento la capacidad?,Cloud Infrastructure,Almacenamiento,Capacidad de almacenamiento
+TKT-0671,¿Cómo desactivo la renovación automática?,Billing & Account,Suscripción,Renovación automática
+TKT-0672,La replicación falló y no sé por qué.,Cloud Infrastructure,Almacenamiento,Replicación de datos
+TKT-0673,Necesito versión anterior antes del parche.,Soporte Técnico,Mantenimiento,Actualizaciones de parches
+TKT-0674,¿Puedo cambiar de plan a mitad del ciclo?,Billing & Account,Suscripción,Cambio de plan
+TKT-0675,Problema con Configuración de firewall,Cloud Infrastructure,Redes,Configuración de firewall
+TKT-0676,¿Ya está reportado este bug?,Soporte Técnico,Errores,Bug en feature
+TKT-0677,Quiero cancelar mi cuenta. ¿Cuál es el proceso?,Billing & Account,Suscripción,Cancelación de cuenta
+TKT-0678,No recibo notificaciones de alertas.,Performance & Monitoring,Logs,Alertas de error
+TKT-0679,El renovación automática de credenciales no funcionó.,API Management,Autenticación,Renovación de credenciales
+TKT-0680,¿Hay período de gracia antes de cancelación final?,Billing & Account,Suscripción,Cancelación de cuenta
+TKT-0681,¿Cuáles son las versiones mínimas de dependencias?,Soporte Técnico,Instalación,Dependencias faltantes
+TKT-0682,Timeout en solicitudes específicas pero no en otras.,Soporte Técnico,Errores,Timeout de conexión
+TKT-0683,¿Cómo configuro el entorno para desarrollo local?,Soporte Técnico,Instalación,Entorno de desarrollo
+TKT-0684,¿Se notifica con anticipación antes del mantenimiento?,Soporte Técnico,Mantenimiento,Ventanas de mantenimiento
+TKT-0685,La escalabilidad automática no se activa aunque los umbrales se superan.,Cloud Infrastructure,Instancias,Escalabilidad automática
+TKT-0686,El umbral es demasiado sensible. Muchos falsos positivos.,Performance & Monitoring,Alertas,Umbrales de disparo
+TKT-0687,¿Cómo aplico un cupón retroactivamente?,Billing & Account,Facturación,Descuentos no aplicados
+TKT-0688,Necesito cambiar el correo asociado a mi cuenta.,Billing & Account,Acceso,Cambio de correo
+TKT-0689,Hay incompatibilidad entre módulos.,Soporte Técnico,Errores,Problema de compatibilidad
+TKT-0690,¿Cómo implemento reintentos exponenciales para throttling?,API Management,Rate Limiting,Throttling
+TKT-0691,El sistema me advierte que solo tengo 5% de espacio libre.,Cloud Infrastructure,Almacenamiento,Capacidad de almacenamiento
+TKT-0692,Actualicé la librería y rompió mi código.,Soporte Técnico,Errores,Problema de compatibilidad
+TKT-0693,2FA está retrasando demasiado el login.,Billing & Account,Acceso,Dos factores
+TKT-0694,¿Hay timeline de deprecación de features?,API Management,Integración,Deprecación de endpoints
+TKT-0695,Mi servicio tuvo downtime anoche. ¿Qué pasó?,Performance & Monitoring,Métricas,Disponibilidad del servicio
+TKT-0696,Los ejemplos de código no funcionan como están.,Soporte Técnico,Instalación,Documentación incompleta
+TKT-0697,La excepción temporal que solicité no fue aprobada.,API Management,Rate Limiting,Excepciones temporales
+TKT-0698,Necesito reiniciar una instancia. ¿Hay downtime asociado?,Cloud Infrastructure,Instancias,Reinicio de instancia
+TKT-0699,¿Qué formatos soportan para exportación?,Performance & Monitoring,Logs,Exportación de reportes
+TKT-0700,¿Cuáles son los requisitos mínimos de compatibilidad?,API Management,Integración,Compatibilidad
+TKT-0701,Throttling está afectando mi aplicación en producción.,API Management,Rate Limiting,Throttling
+TKT-0702,¿Cuál es el número máximo de alertas que puedo crear?,Performance & Monitoring,Alertas,Configuración de alertas
+TKT-0703,¿Hay archivo de configuración de ejemplo?,Soporte Técnico,Instalación,Configuración inicial
+TKT-0704,Escalamiento de alerta ocurrió muy rápido.,Performance & Monitoring,Alertas,Escalamiento de alertas
+TKT-0705,Problema con Conectividad VPC,Cloud Infrastructure,Redes,Conectividad VPC
+TKT-0706,Mi librería cliente no es compatible con la nueva versión de API.,API Management,Integración,Compatibilidad
+TKT-0707,¿Cómo activo autenticación de dos factores?,Billing & Account,Acceso,Dos factores
+TKT-0708,Necesito comparar uso de enero vs febrero.,Performance & Monitoring,Métricas,Comparativa de periodos
+TKT-0709,La replicación falló y no sé por qué.,Cloud Infrastructure,Almacenamiento,Replicación de datos
+TKT-0710,Un usuario no tiene permisos aunque lo agregué a grupo.,Billing & Account,Acceso,Permisos de usuario
+TKT-0711,¿Cómo elimino datos de forma permanente y segura?,Cloud Infrastructure,Almacenamiento,Eliminación de datos
+TKT-0712,El filtrado por usuario no funciona correctamente.,Performance & Monitoring,Logs,Filtrado de eventos
+TKT-0713,Quiero cambiar mi método de pago de tarjeta a transferencia.,Billing & Account,Facturación,Métodos de pago
+TKT-0714,Pip install falla con error de compilación.,Soporte Técnico,Instalación,Instalación de SDK
+TKT-0715,Limpieza de base de datos dejó inconsistencias.,Soporte Técnico,Mantenimiento,Limpieza de base de datos
+TKT-0716,Falta documentación sobre parámetros opcionales.,API Management,Integración,Documentación de API
+TKT-0717,¿Ya está reportado este bug?,Soporte Técnico,Errores,Bug en feature
+TKT-0718,Latencia muy alta en las consultas a base de datos. ¿Dónde está el cuello de botella?,Cloud Infrastructure,Instancias,Rendimiento de servidor
+TKT-0719,¿Dónde está el cuello de botella en latencia?,Performance & Monitoring,Métricas,Latencia de respuesta
+TKT-0720,Mi webhook no recibe notificaciones aunque está configurado.,API Management,Integración,Webhook
+TKT-0721,¿Cuáles son los umbrales normales de CPU/memoria?,Performance & Monitoring,Métricas,CPU y memoria
+TKT-0722,¿Cuánto tiempo se conservan los logs?,Performance & Monitoring,Logs,Retención de datos
+TKT-0723,Necesito retención más larga de 30 días.,Performance & Monitoring,Logs,Retención de datos
+TKT-0724,Notificación duplicada para la misma alerta.,Performance & Monitoring,Alertas,Notificaciones
+TKT-0725,Las solicitudes están siendo throttled sin razón aparente.,API Management,Rate Limiting,Throttling
+TKT-0726,¿Cómo configuro el entorno para desarrollo local?,Soporte Técnico,Instalación,Entorno de desarrollo
+TKT-0727,Hay breaking changes en la migración.,Soporte Técnico,Mantenimiento,Migraciones
+TKT-0728,Necesito reconfigurar el URL de mi webhook.,API Management,Integración,Webhook
+TKT-0729,El gráfico de CPU y memoria no se actualiza.,Performance & Monitoring,Métricas,CPU y memoria
+TKT-0730,¿Soportan integración con frameworks específicos?,API Management,Integración,Compatibilidad
+TKT-0731,¿Puedo solicitar una excepción temporal para superar límites?,API Management,Rate Limiting,Excepciones temporales
+TKT-0732,Hay ejemplos incompletos en la documentación.,Soporte Técnico,Instalación,Documentación incompleta
+TKT-0733,¿Hay downtime esperado en mantenimiento?,Soporte Técnico,Mantenimiento,Ventanas de mantenimiento
+TKT-0734,Problema con Balanceador de carga,Cloud Infrastructure,Redes,Balanceador de carga
+TKT-0735,Necesito reiniciar una instancia. ¿Hay downtime asociado?,Cloud Infrastructure,Instancias,Reinicio de instancia
+TKT-0736,¿Cómo debuggeo un error 500?,Soporte Técnico,Errores,Error 500
+TKT-0737,¿Cuándo son las ventanas de mantenimiento?,Soporte Técnico,Mantenimiento,Ventanas de mantenimiento
+TKT-0738,Migración completada pero el servicio sigue apuntando al servidor viejo.,Cloud Infrastructure,Instancias,Migración de servidor
+TKT-0739,Alcancé mi cuota mensual de API. ¿Cómo compro más?,API Management,Rate Limiting,Cuotas de API
+TKT-0740,CPU al 100% constantemente. ¿Es normal? ¿Cómo optimizo?,Cloud Infrastructure,Instancias,Rendimiento de servidor
+TKT-0741,Quiero vaciar un bucket/tabla pero temo perder datos importantes.,Cloud Infrastructure,Almacenamiento,Eliminación de datos
+TKT-0742,¿Cuál es el límite de rate por defecto en la API?,API Management,Rate Limiting,Límites de rate
+TKT-0743,Superar la cuota causa que la API retorne errores.,API Management,Rate Limiting,Cuotas de API
+TKT-0744,¿Puedo enviar alertas a un canal específico?,Performance & Monitoring,Alertas,Integración con Slack
+TKT-0745,¿Cómo cambio a la última versión de la API?,API Management,Integración,Versionamiento
+TKT-0746,Variables de entorno no se cargan correctamente.,Soporte Técnico,Instalación,Entorno de desarrollo
+TKT-0747,La migración falló a mitad del proceso.,Soporte Técnico,Mantenimiento,Migraciones
+TKT-0748,Hay cargos duplicados en mi factura.,Billing & Account,Facturación,Factura incorrecta
+TKT-0749,¿Por qué la memoria crece constantemente?,Performance & Monitoring,Métricas,CPU y memoria
+TKT-0750,¿Dónde puedo descargar mis backups?,Cloud Infrastructure,Almacenamiento,Backup y recuperación
+TKT-0751,Necesito replicar datos a múltiples datacenters.,Cloud Infrastructure,Almacenamiento,Replicación de datos
+TKT-0752,¿Cuál es el número máximo de alertas que puedo crear?,Performance & Monitoring,Alertas,Configuración de alertas
+TKT-0753,¿Cuándo se elimina soporte para versiones antiguas?,API Management,Integración,Versionamiento
+TKT-0754,¿Cuáles son los diferentes roles disponibles?,Billing & Account,Acceso,Permisos de usuario
+TKT-0755,¿Puedo cambiar la política de retención?,Performance & Monitoring,Logs,Retención de datos
+TKT-0756,Un parche rompió mi aplicación.,Soporte Técnico,Mantenimiento,Actualizaciones de parches
+TKT-0757,Tengo un evento especial y necesito límites temporales aumentados.,API Management,Rate Limiting,Excepciones temporales
+TKT-0758,¿Cuáles son los métodos de pago disponibles?,Billing & Account,Facturación,Métodos de pago
+TKT-0759,¿Qué pasa si mi endpoint de webhook devuelve error?,API Management,Integración,Webhook
+TKT-0760,Problema con Latencia de red,Cloud Infrastructure,Redes,Latencia de red
+TKT-0761,Escalamiento de alerta ocurrió muy rápido.,Performance & Monitoring,Alertas,Escalamiento de alertas
+TKT-0762,Pagué a mitad de mes y me cobran el ciclo completo.,Billing & Account,Facturación,Ciclo de facturación
+TKT-0763,Problema con Latencia de red,Cloud Infrastructure,Redes,Latencia de red
+TKT-0764,¿Dónde reporto bugs?,Soporte Técnico,Errores,Bug en feature
+TKT-0765,El percentil P99 de latencia es muy alto.,Performance & Monitoring,Métricas,Latencia de respuesta
+TKT-0766,Se me cobraron servicios que no usé.,Billing & Account,Facturación,Factura incorrecta
+TKT-0767,Reinicié el servidor pero no volvió a arrancar. ¿Qué pasó?,Cloud Infrastructure,Instancias,Reinicio de instancia
+TKT-0768,El dashboard de uso muestra números inconsistentes.,API Management,Rate Limiting,Monitoreo de uso
+TKT-0769,El servidor retorna 500 pero el servicio está activo.,Soporte Técnico,Errores,Error 500
+TKT-0770,¿Cuál es la cuota incluida en mi plan?,API Management,Rate Limiting,Cuotas de API
+TKT-0771,Necesito exportar logs en formato JSON.,Performance & Monitoring,Logs,Exportación de reportes
+TKT-0772,No recibo notificaciones de alertas.,Performance & Monitoring,Logs,Alertas de error
+TKT-0773,¿Hay penalidad por downgrade frecuente?,Billing & Account,Suscripción,Upgrades y downgrades
+TKT-0774,Picos de CPU pero no veo qué proceso los causa.,Performance & Monitoring,Métricas,CPU y memoria
+TKT-0775,Cambié de plan pero la factura no reflejó el cambio.,Billing & Account,Suscripción,Cambio de plan
+TKT-0776,Alcancé mi cuota mensual de API. ¿Cómo compro más?,API Management,Rate Limiting,Cuotas de API
+TKT-0777,¿Cuál es el procedimiento recomendado para reiniciar en producción?,Cloud Infrastructure,Instancias,Reinicio de instancia
+TKT-0778,Olvidé mi contraseña y no tengo acceso al email.,Billing & Account,Acceso,Recuperación de contraseña
+TKT-0779,¿Dónde pongo mis credenciales?,Soporte Técnico,Instalación,Configuración inicial
+TKT-0780,La alerta que creé no se está disparando.,Performance & Monitoring,Alertas,Configuración de alertas
+TKT-0781,El reporte que descargué está incompleto.,Performance & Monitoring,Logs,Exportación de reportes
+TKT-0782,¿Con qué anticipación debo renovar antes de la expiración?,API Management,Autenticación,Renovación de credenciales
+TKT-0783,¿Cuáles son los pasos para migrar de datacenter A a datacenter B?,Cloud Infrastructure,Instancias,Migración de servidor
+TKT-0784,No puedo filtrar logs por timestamp.,Performance & Monitoring,Logs,Acceso a logs
+TKT-0785,Necesito búsqueda full-text en logs.,Performance & Monitoring,Logs,Filtrado de eventos
+TKT-0786,El backup falló. No me muestra si fue completado.,Cloud Infrastructure,Almacenamiento,Backup y recuperación
+TKT-0787,El nuevo email ya está registrado en otra cuenta.,Billing & Account,Acceso,Cambio de correo
+TKT-0788,Error: módulo no encontrado después de instalar.,Soporte Técnico,Instalación,Dependencias faltantes
+TKT-0789,Hay cargos duplicados en mi factura.,Billing & Account,Facturación,Factura incorrecta
+TKT-0790,Problema con Balanceador de carga,Cloud Infrastructure,Redes,Balanceador de carga
+TKT-0791,Quiero cancelar mi cuenta. ¿Cuál es el proceso?,Billing & Account,Suscripción,Cancelación de cuenta
+TKT-0792,No puedo filtrar logs por timestamp.,Performance & Monitoring,Logs,Acceso a logs
+TKT-0793,La alerta que creé no se está disparando.,Performance & Monitoring,Alertas,Configuración de alertas
+TKT-0794,Los permisos de usuario no se aplican correctamente.,Billing & Account,Acceso,Permisos de usuario
+TKT-0795,Recibo error 500 intermitente.,Soporte Técnico,Errores,Error 500
+TKT-0796,¿Qué formatos soportan para exportación?,Performance & Monitoring,Logs,Exportación de reportes
+TKT-0797,Quiero cambiar mi método de pago de tarjeta a transferencia.,Billing & Account,Facturación,Métodos de pago
+TKT-0798,Las notificaciones de Slack tienen formato incorrecto.,Performance & Monitoring,Alertas,Integración con Slack
+TKT-0799,¿Cuál es el procedimiento para renovar credenciales vencidas?,API Management,Autenticación,Renovación de credenciales
+TKT-0800,¿Hay SDK para Go?,Soporte Técnico,Instalación,Instalación de SDK
+TKT-0801,Cambio de email no se reflejó en el sistema.,Billing & Account,Acceso,Cambio de correo
+TKT-0802,¿Hay guía de migraciones de compatibilidad?,Soporte Técnico,Errores,Problema de compatibilidad
+TKT-0803,"Necesito reembolso parcial, ¿es posible?",Billing & Account,Facturación,Reembolsos
+TKT-0804,¿Cuánto tarda en completarse la provisión de un servidor nuevo?,Cloud Infrastructure,Instancias,Provisión de servidor
+TKT-0805,Compré un plan anual pero no veo descuento aplicado.,Billing & Account,Facturación,Descuentos no aplicados
+TKT-0806,La migración falló a mitad del proceso.,Soporte Técnico,Mantenimiento,Migraciones
+TKT-0807,Problema con Configuración de firewall,Cloud Infrastructure,Redes,Configuración de firewall
+TKT-0808,Las alertas se disparan con frecuencia. ¿Cómo filtro?,Performance & Monitoring,Logs,Alertas de error
+TKT-0809,Las alertas se disparan con frecuencia. ¿Cómo filtro?,Performance & Monitoring,Logs,Alertas de error
+TKT-0810,Las notificaciones de Slack tienen formato incorrecto.,Performance & Monitoring,Alertas,Integración con Slack
+TKT-0811,Los datos de gráficos no coinciden con los reportes.,Performance & Monitoring,Métricas,Gráficos de uso
+TKT-0812,¿Cómo desactivo la renovación automática?,Billing & Account,Suscripción,Renovación automática
+TKT-0813,Mi webhook no recibe notificaciones aunque está configurado.,API Management,Integración,Webhook
+TKT-0814,Los backups no se pueden crear por falta de espacio.,Cloud Infrastructure,Almacenamiento,Capacidad de almacenamiento
+TKT-0815,El percentil P99 de latencia es muy alto.,Performance & Monitoring,Métricas,Latencia de respuesta
+TKT-0816,Quiero cambiar a un plan más barato. ¿Afecta mi servicio?,Billing & Account,Suscripción,Cambio de plan
+TKT-0817,Error 500 con mensaje poco útil.,Soporte Técnico,Errores,Error 500
+TKT-0818,Mi ciclo de facturación es confuso. ¿Cuándo se me cobra?,Billing & Account,Facturación,Ciclo de facturación
+TKT-0819,Recibo error 500 intermitente.,Soporte Técnico,Errores,Error 500
+TKT-0820,¿Cómo aplico un cupón retroactivamente?,Billing & Account,Facturación,Descuentos no aplicados
+TKT-0821,Error 403 inconsistente en la misma solicitud.,Soporte Técnico,Errores,Error 403
+TKT-0822,¿Cómo migro mi aplicación a una instancia diferente sin downtime?,Cloud Infrastructure,Instancias,Migración de servidor
+TKT-0823,La migración falló a mitad del proceso. ¿Puedo revertir?,Cloud Infrastructure,Instancias,Migración de servidor
+TKT-0824,El enlace de recuperación está roto.,Billing & Account,Acceso,Recuperación de contraseña
+TKT-0825,¿Se eliminan mis datos después de cancelar?,Billing & Account,Suscripción,Cancelación de cuenta
+TKT-0826,¿Cómo limpio datos obsoletos de la base de datos?,Soporte Técnico,Mantenimiento,Limpieza de base de datos
+TKT-0827,¿Necesito token especial para integrar Slack?,Performance & Monitoring,Alertas,Integración con Slack
+TKT-0828,¿Hay guía de migraciones de compatibilidad?,Soporte Técnico,Errores,Problema de compatibilidad
+TKT-0829,El servidor deja de responder a las 3 PM diariamente. Sospecho que es un problema de carga.,Cloud Infrastructure,Instancias,Rendimiento de servidor
+TKT-0830,¿Cuál es la duración máxima de un JWT?,API Management,Autenticación,Token JWT
+TKT-0831,¿Hay pre-aviso antes de parches críticos?,Soporte Técnico,Mantenimiento,Actualizaciones de parches
+TKT-0832,¿Cómo implemento reintentos exponenciales para throttling?,API Management,Rate Limiting,Throttling
+TKT-0833,Problema con DNS y dominios,Cloud Infrastructure,Redes,DNS y dominios
+TKT-0834,¿Dónde puedo ver todas mis API keys activas?,API Management,Autenticación,API Keys
+TKT-0835,¿Dónde puedo descargar logs en formato CSV?,Performance & Monitoring,Logs,Acceso a logs
+TKT-0836,¿Cómo pruebo que mi webhook está funcionando?,API Management,Integración,Webhook
+TKT-0837,¿Qué diferencia hay entre 403 y 401?,Soporte Técnico,Errores,Error 403
+TKT-0838,¿Cuál es el proceso para apelar una suspensión?,Billing & Account,Acceso,Suspensión de cuenta
+TKT-0839,Mi webhook no recibe notificaciones aunque está configurado.,API Management,Integración,Webhook
+TKT-0840,¿Puedo enviar alertas a un canal específico?,Performance & Monitoring,Alertas,Integración con Slack
+TKT-0841,¿Hay guía de troubleshooting?,Soporte Técnico,Instalación,Documentación incompleta
+TKT-0842,Necesito refrescar tokens sin que expire la sesión.,API Management,Autenticación,Token JWT
+TKT-0843,El enlace de recuperación está roto.,Billing & Account,Acceso,Recuperación de contraseña
+TKT-0844,¿Cuál es el procedimiento para renovar credenciales vencidas?,API Management,Autenticación,Renovación de credenciales
+TKT-0845,Problema con Conectividad VPC,Cloud Infrastructure,Redes,Conectividad VPC
+TKT-0846,Necesito exportar logs en formato JSON.,Performance & Monitoring,Logs,Exportación de reportes
+TKT-0847,¿Cómo configuro escalamiento de alertas?,Performance & Monitoring,Alertas,Escalamiento de alertas
+TKT-0848,Error en configuración inicial del SDK.,Soporte Técnico,Instalación,Configuración inicial
+TKT-0849,¿Dónde veo el status actual del servicio?,Performance & Monitoring,Métricas,Disponibilidad del servicio
+TKT-0850,¿Cuál es el número máximo de alertas que puedo crear?,Performance & Monitoring,Alertas,Configuración de alertas
+TKT-0851,¿Qué pasa si mi endpoint de webhook devuelve error?,API Management,Integración,Webhook
+TKT-0852,¿Puedo crear filtros salvados?,Performance & Monitoring,Logs,Filtrado de eventos
+TKT-0853,¿Puedo revertir después de migrar?,Soporte Técnico,Mantenimiento,Migraciones
+TKT-0854,¿Cuál es el procedimiento recomendado para reiniciar en producción?,Cloud Infrastructure,Instancias,Reinicio de instancia
+TKT-0855,El servidor de desarrollo no funciona.,Soporte Técnico,Instalación,Entorno de desarrollo
+TKT-0856,¿Puedo silenciar notificaciones en horarios específicos?,Performance & Monitoring,Alertas,Notificaciones
+TKT-0857,¿Puedo obtener una factura detallada con breakdown por servicio?,Billing & Account,Facturación,Factura incorrecta
+TKT-0858,¿Cómo calculo si voy a superar el límite de rate?,API Management,Rate Limiting,Límites de rate
+TKT-0859,Latencia muy alta en las consultas a base de datos. ¿Dónde está el cuello de botella?,Cloud Infrastructure,Instancias,Rendimiento de servidor
+TKT-0860,2FA está retrasando demasiado el login.,Billing & Account,Acceso,Dos factores
+TKT-0861,¿Dónde veo el status actual del servicio?,Performance & Monitoring,Métricas,Disponibilidad del servicio
+TKT-0862,Solicité cancelación pero aún me está cobrando.,Billing & Account,Suscripción,Cancelación de cuenta
+TKT-0863,¿Cuál es la política de reembolsos?,Billing & Account,Facturación,Reembolsos
+TKT-0864,Los ejemplos de código no funcionan como están.,Soporte Técnico,Instalación,Documentación incompleta
+TKT-0865,¿Dónde puedo ver todas mis API keys activas?,API Management,Autenticación,API Keys
+TKT-0866,Error al validar JWT: 'firma inválida'.,API Management,Autenticación,Token JWT
+TKT-0867,¿Cómo migro a la nueva versión de la plataforma?,Soporte Técnico,Mantenimiento,Migraciones
+TKT-0868,¿Cómo simulo errores en desarrollo?,Soporte Técnico,Instalación,Entorno de desarrollo
+TKT-0869,¿Qué causa error 500 en esta API?,Soporte Técnico,Errores,Error 500
+TKT-0870,¿Con qué anticipación debo renovar antes de la expiración?,API Management,Autenticación,Renovación de credenciales
+TKT-0871,Cambié de email pero sigo recibiendo notificaciones en el viejo.,Billing & Account,Acceso,Cambio de correo
+TKT-0872,¿Cuándo son las ventanas de mantenimiento?,Soporte Técnico,Mantenimiento,Ventanas de mantenimiento
+TKT-0873,¿Cómo simulo errores en desarrollo?,Soporte Técnico,Instalación,Entorno de desarrollo
+TKT-0874,¿Puedo enviar alertas a un canal específico?,Performance & Monitoring,Alertas,Integración con Slack
+TKT-0875,Problema con Latencia de red,Cloud Infrastructure,Redes,Latencia de red
+TKT-0876,¿Por qué no aparece el descuento en mi factura?,Billing & Account,Facturación,Descuentos no aplicados
+TKT-0877,¿Cómo configuro escalamiento de alertas?,Performance & Monitoring,Alertas,Escalamiento de alertas
+TKT-0878,¿Cómo cambio de plan desde el dashboard?,Billing & Account,Suscripción,Cambio de plan
+TKT-0879,¿Cuánto tarda en procesarse un reembolso?,Billing & Account,Facturación,Reembolsos
+TKT-0880,¿Ya está reportado este bug?,Soporte Técnico,Errores,Bug en feature
+TKT-0881,2FA está retrasando demasiado el login.,Billing & Account,Acceso,Dos factores
+TKT-0882,¿Hay timeline de deprecación de features?,API Management,Integración,Deprecación de endpoints
+TKT-0883,Conflicto de dependencias con mi proyecto.,Soporte Técnico,Instalación,Dependencias faltantes
+TKT-0884,Mi versión de librería no es compatible.,Soporte Técnico,Errores,Problema de compatibilidad
+TKT-0885,Necesito un límite más alto de requests/segundo.,API Management,Rate Limiting,Límites de rate
+TKT-0886,Recibí cobro de renovación antes de la fecha esperada.,Billing & Account,Suscripción,Renovación automática
+TKT-0887,¿Dónde está el cuello de botella en latencia?,Performance & Monitoring,Métricas,Latencia de respuesta
+TKT-0888,¿Cuáles son los métodos de pago disponibles?,Billing & Account,Facturación,Métodos de pago
+TKT-0889,Problema con Configuración de firewall,Cloud Infrastructure,Redes,Configuración de firewall
+TKT-0890,Problema con Latencia de red,Cloud Infrastructure,Redes,Latencia de red
+TKT-0891,¿Dónde veo la fecha de próxima renovación?,Billing & Account,Suscripción,Renovación automática
+TKT-0892,¿A quién se escala si no responde el equipo?,Performance & Monitoring,Alertas,Escalamiento de alertas
+TKT-0893,No puedo crear una nueva instancia de servidor. Me aparece error de permisos al intentar provisionar desde el dashboard.,Cloud Infrastructure,Instancias,Provisión de servidor
+TKT-0894,El scaling down es muy agresivo y causa caídas de servicio.,Cloud Infrastructure,Instancias,Escalabilidad automática
+TKT-0895,"Necesito reembolso parcial, ¿es posible?",Billing & Account,Facturación,Reembolsos
+TKT-0896,El dashboard de uso muestra números inconsistentes.,API Management,Rate Limiting,Monitoreo de uso
+TKT-0897,¿Cuál es la diferencia entre planes: starter vs professional?,Billing & Account,Suscripción,Upgrades y downgrades
+TKT-0898,Pip install falla con error de compilación.,Soporte Técnico,Instalación,Instalación de SDK
+TKT-0899,El backup falló. No me muestra si fue completado.,Cloud Infrastructure,Almacenamiento,Backup y recuperación
+TKT-0900,Necesito un límite más alto de requests/segundo.,API Management,Rate Limiting,Límites de rate
+TKT-0901,¿Cómo migro mi aplicación a una instancia diferente sin downtime?,Cloud Infrastructure,Instancias,Migración de servidor
+TKT-0902,¿Ya está reportado este bug?,Soporte Técnico,Errores,Bug en feature
+TKT-0903,Problema con Conectividad VPC,Cloud Infrastructure,Redes,Conectividad VPC
+TKT-0904,¿Cómo ajusto el umbral de una alerta?,Performance & Monitoring,Alertas,Umbrales de disparo
+TKT-0905,¿Cuánto tiempo tarda en procesarse una solicitud de excepción?,API Management,Rate Limiting,Excepciones temporales
+TKT-0906,Los permisos de usuario no se aplican correctamente.,Billing & Account,Acceso,Permisos de usuario
+TKT-0907,Los ejemplos de código no funcionan como están.,Soporte Técnico,Instalación,Documentación incompleta
+TKT-0908,Necesito cambiar el correo asociado a mi cuenta.,Billing & Account,Acceso,Cambio de correo
+TKT-0909,La excepción temporal que solicité no fue aprobada.,API Management,Rate Limiting,Excepciones temporales
+TKT-0910,"El throttling es impredecible, a veces bloquea, a veces no.",API Management,Rate Limiting,Throttling
+TKT-0911,¿Dónde veo el status actual del servicio?,Performance & Monitoring,Métricas,Disponibilidad del servicio
+TKT-0912,¿Cómo limpio datos obsoletos de la base de datos?,Soporte Técnico,Mantenimiento,Limpieza de base de datos
+TKT-0913,Migración completada pero el servicio sigue apuntando al servidor viejo.,Cloud Infrastructure,Instancias,Migración de servidor
+TKT-0914,Limpieza de base de datos dejó inconsistencias.,Soporte Técnico,Mantenimiento,Limpieza de base de datos
+TKT-0915,Necesito un servidor con mayor capacidad. ¿Cuál es el proceso para provisionar una instancia más grande?,Cloud Infrastructure,Instancias,Provisión de servidor
+TKT-0916,La excepción temporal que solicité no fue aprobada.,API Management,Rate Limiting,Excepciones temporales
+TKT-0917,¿Cómo implemento reintentos exponenciales para throttling?,API Management,Rate Limiting,Throttling
+TKT-0918,¿Puedo cambiar la política de retención?,Performance & Monitoring,Logs,Retención de datos
+TKT-0919,El nuevo email ya está registrado en otra cuenta.,Billing & Account,Acceso,Cambio de correo
+TKT-0920,Throttling está afectando mi aplicación en producción.,API Management,Rate Limiting,Throttling
+TKT-0921,No puedo crear una nueva instancia de servidor. Me aparece error de permisos al intentar provisionar desde el dashboard.,Cloud Infrastructure,Instancias,Provisión de servidor
+TKT-0922,El flujo OAuth no redirige correctamente al callback.,API Management,Autenticación,OAuth 2.0
+TKT-0923,Problema con Configuración de firewall,Cloud Infrastructure,Redes,Configuración de firewall
+TKT-0924,El proceso de eliminación está tardando demasiado.,Cloud Infrastructure,Almacenamiento,Eliminación de datos
+TKT-0925,¿Cuál es el procedimiento recomendado para reiniciar en producción?,Cloud Infrastructure,Instancias,Reinicio de instancia
+TKT-0926,El scaling down es muy agresivo y causa caídas de servicio.,Cloud Infrastructure,Instancias,Escalabilidad automática
+TKT-0927,Problema con Configuración de firewall,Cloud Infrastructure,Redes,Configuración de firewall
+TKT-0928,El histórico de disponibilidad no es exacto.,Performance & Monitoring,Métricas,Disponibilidad del servicio
+TKT-0929,Pagué a mitad de mes y me cobran el ciclo completo.,Billing & Account,Facturación,Ciclo de facturación
+TKT-0930,¿Qué diferencia hay entre 403 y 401?,Soporte Técnico,Errores,Error 403
+TKT-0931,Actualicé la librería y rompió mi código.,Soporte Técnico,Errores,Problema de compatibilidad
+TKT-0932,Problema con Configuración de firewall,Cloud Infrastructure,Redes,Configuración de firewall
+TKT-0933,Timeout aleatorio sin patrón aparente.,Soporte Técnico,Errores,Timeout de conexión
+TKT-0934,Actualicé la librería y rompió mi código.,Soporte Técnico,Errores,Problema de compatibilidad
+TKT-0935,Problema con Conectividad VPC,Cloud Infrastructure,Redes,Conectividad VPC
+TKT-0936,¿Cuál es el procedimiento recomendado para reiniciar en producción?,Cloud Infrastructure,Instancias,Reinicio de instancia
+TKT-0937,Compré un plan anual pero no veo descuento aplicado.,Billing & Account,Facturación,Descuentos no aplicados
+TKT-0938,¿Cómo configuro el entorno para desarrollo local?,Soporte Técnico,Instalación,Entorno de desarrollo
+TKT-0939,¿Necesito verificar el nuevo email?,Billing & Account,Acceso,Cambio de correo
+TKT-0940,¿Cuánto tiempo se conservan los logs?,Performance & Monitoring,Logs,Retención de datos
+TKT-0941,Los ejemplos de código no funcionan como están.,Soporte Técnico,Instalación,Documentación incompleta
+TKT-0942,¿Cómo ajusto el umbral de una alerta?,Performance & Monitoring,Alertas,Umbrales de disparo
+TKT-0943,¿Con qué frecuencia se hacen backups automáticos?,Cloud Infrastructure,Almacenamiento,Backup y recuperación
+TKT-0944,La severidad de la alerta está mal clasificada.,Performance & Monitoring,Logs,Alertas de error
+TKT-0945,¿Cómo renuevo un certificado SSL expirado?,API Management,Autenticación,Certificados SSL
+TKT-0946,Recibí cobro de renovación antes de la fecha esperada.,Billing & Account,Suscripción,Renovación automática
+TKT-0947,¿Hay SDK para Go?,Soporte Técnico,Instalación,Instalación de SDK
+TKT-0948,¿Cuánto dura un downtime típico?,Soporte Técnico,Mantenimiento,Downtime planificado
+TKT-0949,Latencia muy alta en las consultas a base de datos. ¿Dónde está el cuello de botella?,Cloud Infrastructure,Instancias,Rendimiento de servidor
+TKT-0950,La alerta no escala cuando el ingeniero no responde.,Performance & Monitoring,Alertas,Escalamiento de alertas
+TKT-0951,Recibo 403 Forbidden aunque tengo permisos.,Soporte Técnico,Errores,Error 403
+TKT-0952,El percentil P99 de latencia es muy alto.,Performance & Monitoring,Métricas,Latencia de respuesta
+TKT-0953,Problema con Conectividad VPC,Cloud Infrastructure,Redes,Conectividad VPC
+TKT-0954,Los datos de gráficos no coinciden con los reportes.,Performance & Monitoring,Métricas,Gráficos de uso
+TKT-0955,¿Puedo cambiar la fecha de facturación?,Billing & Account,Facturación,Ciclo de facturación
+TKT-0956,¿Cuáles son los umbrales normales de CPU/memoria?,Performance & Monitoring,Métricas,CPU y memoria
+TKT-0957,La alerta que creé no se está disparando.,Performance & Monitoring,Alertas,Configuración de alertas
+TKT-0958,¿Cuál es el endpoint recomendado para reemplazar este?,API Management,Integración,Deprecación de endpoints
+TKT-0959,¿Cuánto tarda el enlace de recuperación en expirar?,Billing & Account,Acceso,Recuperación de contraseña
+TKT-0960,La documentación no menciona este parámetro.,Soporte Técnico,Instalación,Documentación incompleta
+TKT-0961,Problema con Configuración de firewall,Cloud Infrastructure,Redes,Configuración de firewall
+TKT-0962,¿Hay costo adicional por retención extendida?,Performance & Monitoring,Logs,Retención de datos
+TKT-0963,Actualicé la librería y rompió mi código.,Soporte Técnico,Errores,Problema de compatibilidad
+TKT-0964,Problema con Conectividad VPC,Cloud Infrastructure,Redes,Conectividad VPC
+TKT-0965,¿Cuál es el costo de la escalabilidad automática?,Cloud Infrastructure,Instancias,Escalabilidad automática
+TKT-0966,¿Puedo obtener una factura detallada con breakdown por servicio?,Billing & Account,Facturación,Factura incorrecta
+TKT-0967,¿Cómo sabré cuándo expira mi excepción temporal?,API Management,Rate Limiting,Excepciones temporales
+TKT-0968,La integración con Slack deja de funcionar ocasionalmente.,Performance & Monitoring,Alertas,Integración con Slack
+TKT-0969,Picos de CPU pero no veo qué proceso los causa.,Performance & Monitoring,Métricas,CPU y memoria
+TKT-0970,Disponibilidad por debajo del SLA. ¿Compensación?,Performance & Monitoring,Métricas,Disponibilidad del servicio
+TKT-0971,¿Cómo configuro el auto-scaling para que agregue más servidores?,Cloud Infrastructure,Instancias,Escalabilidad automática
+TKT-0972,¿Cómo ajusto el umbral de una alerta?,Performance & Monitoring,Alertas,Umbrales de disparo
+TKT-0973,Los permisos de OAuth no están reflejando lo que solicité.,API Management,Autenticación,OAuth 2.0
+TKT-0974,¿Cuánto dura un downtime típico?,Soporte Técnico,Mantenimiento,Downtime planificado
+TKT-0975,¿Hay guía paso a paso de migración?,Soporte Técnico,Mantenimiento,Migraciones
+TKT-0976,La factura no coincide con el desglose de uso.,Billing & Account,Facturación,Factura incorrecta
+TKT-0977,Los logs más antiguos no están disponibles.,Performance & Monitoring,Logs,Acceso a logs
+TKT-0978,¿Cuál es la diferencia entre client credentials y authorization code?,API Management,Autenticación,OAuth 2.0
+TKT-0979,¿Cómo genero un reporte de uso mensual?,Performance & Monitoring,Logs,Exportación de reportes
+TKT-0980,¿Dónde puedo ver mi uso actual vs cuota?,API Management,Rate Limiting,Cuotas de API
+TKT-0981,Los ejemplos de código no funcionan como están.,Soporte Técnico,Instalación,Documentación incompleta
+TKT-0982,"El throttling es impredecible, a veces bloquea, a veces no.",API Management,Rate Limiting,Throttling
+TKT-0983,¿Puedo combinar múltiples códigos de promoción?,Billing & Account,Suscripción,Promociones
+TKT-0984,¿Cómo migro a la nueva versión de la plataforma?,Soporte Técnico,Mantenimiento,Migraciones
+TKT-0985,Problema con Latencia de red,Cloud Infrastructure,Redes,Latencia de red
+TKT-0986,¿Cuáles son los requisitos mínimos de compatibilidad?,API Management,Integración,Compatibilidad
+TKT-0987,Problema con DNS y dominios,Cloud Infrastructure,Redes,DNS y dominios
+TKT-0988,¿Puedo cambiar de plan a mitad del ciclo?,Billing & Account,Suscripción,Cambio de plan
+TKT-0989,Hay cargos duplicados en mi factura.,Billing & Account,Facturación,Factura incorrecta
+TKT-0990,Cambié de email pero sigo recibiendo notificaciones en el viejo.,Billing & Account,Acceso,Cambio de correo
+TKT-0991,¿A quién se escala si no responde el equipo?,Performance & Monitoring,Alertas,Escalamiento de alertas
+TKT-0992,Pip install falla con error de compilación.,Soporte Técnico,Instalación,Instalación de SDK
+TKT-0993,El código de descuento que usé no funcionó.,Billing & Account,Facturación,Descuentos no aplicados
+TKT-0994,¿Cómo configuro el entorno para desarrollo local?,Soporte Técnico,Instalación,Entorno de desarrollo
+TKT-0995,Hice reset de contraseña pero no puedo acceder.,Billing & Account,Acceso,Recuperación de contraseña
+TKT-0996,¿Puedo exportar comparativas en gráfico?,Performance & Monitoring,Métricas,Comparativa de periodos
+TKT-0997,El servidor deja de responder a las 3 PM diariamente. Sospecho que es un problema de carga.,Cloud Infrastructure,Instancias,Rendimiento de servidor
+TKT-0998,¿Cuáles son las versiones mínimas de dependencias?,Soporte Técnico,Instalación,Dependencias faltantes
+TKT-0999,Superar la cuota causa que la API retorne errores.,API Management,Rate Limiting,Cuotas de API
+TKT-1000,Pago rechazado y fui cobrado igual. ¿Puedo obtener reembolso?,Billing & Account,Facturación,Reembolsos
