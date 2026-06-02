@@ -16,7 +16,6 @@ RUN uv sync --no-dev --no-install-project
 # Copy application source code and models
 COPY src ./src
 COPY models ./models
-COPY main.py ./
 
 # Re-run sync to install the project itself
 RUN uv sync --no-dev
