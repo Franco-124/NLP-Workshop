@@ -9,7 +9,6 @@ from loguru import logger
 from transformers import AutoTokenizer, PreTrainedTokenizerBase
 
 from src.config import Config
-from src.core.exceptions import ModelLoadError, ModelNotTrainedError, PredictionError
 from src.model import DistilBertMultiHead
 from src.utils import build_label_encoders, load_dataset, tokenize_texts
 
@@ -40,10 +39,10 @@ class TicketClassifierService:
         if not state_path.exists():
             error_msg = f"Model weights not found at {state_path}. Run training first."
             logger.error(error_msg)
-            raise ModelNotTrainedError(error_msg)
+            raise FileNotFoundError(error_msg)
 
         try:
-            # 1. Load dataset to reconstruct decoders
+            # Load dataset to reconstruct decoders
             logger.info("Reconstructing decoders from dataset...")
             df = load_dataset(self.config.data_path)
             encoders = build_label_encoders(df, self.config.label_columns)
@@ -52,11 +51,11 @@ class TicketClassifierService:
                 for key, mapping in encoders.items()
             }
 
-            # 2. Load tokenizer
+            # Load tokenizer
             logger.info(f"Loading tokenizer from {self.config.output_tokenizer_dir}...")
             self.tokenizer = AutoTokenizer.from_pretrained(self.config.output_tokenizer_dir)
 
-            # 3. Initialize model architecture and load weights
+            # Initialize model architecture and load weights
             logger.info(f"Loading model weights onto device: {self.device.type}...")
             self.model = DistilBertMultiHead(
                 self.config.model_name,
@@ -72,7 +71,7 @@ class TicketClassifierService:
             logger.info("Model and tokenizer loaded successfully.")
         except Exception as err:
             logger.exception("Failed to load model resources.")
-            raise ModelLoadError(f"Unexpected error loading model: {err}") from err
+            raise RuntimeError(f"Unexpected error loading model: {err}") from err
 
     async def predict(self, text: str) -> Dict[str, str]:
         """Classify a given text into service, category, and subcategory.
@@ -87,7 +86,7 @@ class TicketClassifierService:
             PredictionError: If tokenization or inference fails.
         """
         if self.model is None or self.tokenizer is None or not self.decoders:
-            raise PredictionError("Model is not loaded. Call load_model() first.")
+            raise RuntimeError("Model is not loaded. Call load_model() first.")
 
         try:
             # Run tokenization and move inputs to the same device as the model
@@ -106,4 +105,4 @@ class TicketClassifierService:
             return predictions
         except Exception as err:
             logger.exception("Error running prediction model.")
-            raise PredictionError(f"Prediction failed: {err}") from err
+            raise RuntimeError(f"Prediction failed: {err}") from err

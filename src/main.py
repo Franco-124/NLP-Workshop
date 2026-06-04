@@ -23,13 +23,11 @@ async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
         del app.state.classifier_service
 
 
-# Initialize FastAPI app with lifespan manager
 app = FastAPI(
     title="IT Support Ticket Classifier API",
     lifespan=lifespan,
 )
 
-# CORS middleware remains to allow simple client/frontend connections
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
