@@ -15,7 +15,6 @@ class Config:
     output_model_dir: str = "models/distilbert-finetuned/"
     output_tokenizer_dir: str = "models/tokenizer/"
     metrics_path: str = "metrics.json"
-    training_log_path: str = "training_log.txt"
     loss_curves_path: str = "loss_curves.png"
 
     learning_rate: float = 2e-5
