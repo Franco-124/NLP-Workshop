@@ -3,8 +3,7 @@ from __future__ import annotations
 from contextlib import asynccontextmanager
 from typing import AsyncGenerator
 
-from fastapi import FastAPI, Request, status
-from fastapi.middleware.cors import CORSMiddleware
+from fastapi import FastAPI, Request
 from loguru import logger
 
 from src.schemas.ticket import ClassificationRequest, ClassificationResponse
