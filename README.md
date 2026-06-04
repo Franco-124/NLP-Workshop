@@ -39,9 +39,7 @@ TallerNLPAI/
 │   ├── model.py            # Arquitectura del modelo (PyTorch)
 │   ├── utils.py            # Preparación de datos, Datasets y Métricas
 │   ├── train.py            # Ciclo de entrenamiento y validación
-│   ├── predict.py          # Interfaz de comandos (CLI) interactiva
 │   ├── main.py             # Configuración del Servidor FastAPI
-│   ├── api/routes.py       # Controladores de endpoints API
 │   ├── schemas/ticket.py   # Validación de datos de entrada/salida
 │   └── core/exceptions.py  # Excepciones personalizadas
 │
@@ -94,10 +92,6 @@ uv sync
 uv run python -m src.train
 ```
 
-### Probar en Consola (Modo Interactivo)
-```bash
-uv run python -m src.predict
-```
 
 ### Correr Pruebas Unitarias (Con Mocks de Inferencia)
 ```bash
